@@ -667,6 +667,145 @@
         "bubbleAi": "#1A242C",
         "bubbleAiBorder": "#28FFFFFF"
       }
+    },
+    {
+      "id": "bubble_frost_white",
+      "name": "磨砂玻璃",
+      "description": "半透白 + 顶部迎光，像磨砂膜贴在壁纸上",
+      "tokens": {
+        "bubbleStyle": "bubble",
+        "bubbleCorner": "22",
+        "bubbleUser": "#FFFFFF",
+        "bubbleUserText": "#20242B",
+        "bubbleAi": "#FFFFFF",
+        "bubbleAiBorder": "#4DFFFFFF",
+        "bubbleMaterial": "frost",
+        "bubbleGloss": "0.6",
+        "bubbleBorderWidth": "1",
+        "bubbleShadow": "4",
+        "bubbleTailSize": "10",
+        "bubbleUserAlt": "#FFFFFF"
+      },
+      "darkTokens": {
+        "bubbleUser": "#B9C6D6",
+        "bubbleAi": "#AEBACB",
+        "bubbleAiBorder": "#33FFFFFF"
+      }
+    },
+    {
+      "id": "bubble_frost_ink",
+      "name": "磨砂墨",
+      "description": "深灰半透，夜里的磨砂玻璃",
+      "tokens": {
+        "bubbleStyle": "bubble",
+        "bubbleCorner": "20",
+        "bubbleUser": "#2A2E36",
+        "bubbleUserText": "#F2F6FA",
+        "bubbleAi": "#2A2E36",
+        "bubbleAiBorder": "#33FFFFFF",
+        "bubbleMaterial": "frost",
+        "bubbleGloss": "0.55",
+        "bubbleBorderWidth": "1",
+        "bubbleShadow": "5",
+        "bubbleTailSize": "10",
+        "bubbleAiText": "#F2F6FA"
+      },
+      "darkTokens": {
+        "bubbleUser": "#24282F",
+        "bubbleAi": "#24282F"
+      }
+    },
+    {
+      "id": "bubble_liquid_blue",
+      "name": "液态玻璃·蓝",
+      "description": "镜面高光 + 折射色散，iOS 26 那种液体玻璃",
+      "tokens": {
+        "bubbleStyle": "bubble",
+        "bubbleCorner": "26",
+        "bubbleUser": "#4FA8FF",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#BBD9FF",
+        "bubbleAiBorder": "#66BFE4FF",
+        "bubbleMaterial": "liquid",
+        "bubbleGloss": "0.7",
+        "bubbleBorderWidth": "1.2",
+        "bubbleShadow": "6",
+        "bubbleTailSize": "11",
+        "bubbleAiText": "#12324D"
+      },
+      "darkTokens": {
+        "bubbleUser": "#2E6FA8",
+        "bubbleAi": "#1B2C3C",
+        "bubbleAiText": "#E4F1FF"
+      }
+    },
+    {
+      "id": "bubble_liquid_rose",
+      "name": "液态玻璃·粉",
+      "description": "粉玻璃 + 强高光，甜系液体感",
+      "tokens": {
+        "bubbleStyle": "blob",
+        "bubbleCorner": "26",
+        "bubbleUser": "#FF9EC4",
+        "bubbleUserText": "#4A1026",
+        "bubbleAi": "#FFD7E5",
+        "bubbleAiBorder": "#66FFB6D0",
+        "bubbleMaterial": "liquid",
+        "bubbleGloss": "0.75",
+        "bubbleBorderWidth": "1.2",
+        "bubbleShadow": "6",
+        "bubbleTailSize": "10",
+        "bubbleAiText": "#5A1F33"
+      },
+      "darkTokens": {
+        "bubbleUser": "#B85C82",
+        "bubbleAi": "#33202A",
+        "bubbleAiText": "#FFE6EF"
+      }
+    },
+    {
+      "id": "bubble_liquid_aqua",
+      "name": "液态玻璃·青",
+      "description": "通透青色玻璃，配深色壁纸最好看",
+      "tokens": {
+        "bubbleStyle": "capsule",
+        "bubbleCorner": "24",
+        "bubbleUser": "#3FD9C9",
+        "bubbleUserText": "#04211E",
+        "bubbleAi": "#B6F2EA",
+        "bubbleAiBorder": "#663FD9C9",
+        "bubbleMaterial": "liquid",
+        "bubbleGloss": "0.7",
+        "bubbleBorderWidth": "1",
+        "bubbleShadow": "5",
+        "bubbleAiText": "#08423A"
+      },
+      "darkTokens": {
+        "bubbleUser": "#2C9E93",
+        "bubbleAi": "#152A28",
+        "bubbleAiText": "#D9FFF8"
+      }
+    },
+    {
+      "id": "bubble_neon_glass",
+      "name": "霓虹玻璃",
+      "description": "发光描边 + 玻璃底，赛博夜里的招牌",
+      "tokens": {
+        "bubbleStyle": "rounded",
+        "bubbleCorner": "18",
+        "bubbleUser": "#101018",
+        "bubbleUserText": "#8CF5FF",
+        "bubbleAi": "#101018",
+        "bubbleAiBorder": "#CC4DE1FF",
+        "bubbleMaterial": "neon",
+        "bubbleGloss": "0.5",
+        "bubbleBorderWidth": "1.5",
+        "bubbleShadow": "8",
+        "bubbleAiText": "#FFB7D5"
+      },
+      "darkTokens": {
+        "bubbleAiBorder": "#CCFF5C9C"
+      }
     }
   ]
 }
