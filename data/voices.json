@@ -1,0 +1,75 @@
+{
+  "voices": [
+    {
+      "id": "vits-melo-tts-zh_en",
+      "label": "梅洛（中文女声 · 开源）",
+      "description": "167 MB · 完全离线 · 社区开源模型。中文女声，音色温暖，适合当人设默认声音。",
+      "badge": "开源",
+      "sizeBytes": 167006755,
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-melo-tts-zh_en.tar.bz2",
+      "mirrors": [],
+      "sampleText": "你好，我是梅洛，很高兴认识你。"
+    },
+    {
+      "id": "kokoro-int8-multi-lang-v1_1",
+      "label": "Kokoro 星野（多语言 · 推荐）",
+      "description": "140 MB · 完全离线 · Apache-2.0（Kokoro）。中/英/日/韩多语言，目前清单里最自然的音色。",
+      "badge": "140 MB",
+      "sizeBytes": 147052523,
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-int8-multi-lang-v1_1.tar.bz2",
+      "mirrors": [],
+      "sampleText": "你好，我是星野。用自然的声音，陪你把每一天过得更从容。"
+    },
+    {
+      "id": "vits-piper-zh_CN-chaowen-medium-int8",
+      "label": "超文（男声 · 轻量）",
+      "description": "13 MB · 完全离线 · Apache-2.0（Piper）。低端机首选：几秒下完，合成也是这批里最快的。",
+      "badge": "13 MB",
+      "sizeBytes": 14011298,
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-zh_CN-chaowen-medium-int8.tar.bz2",
+      "mirrors": [],
+      "sampleText": "你好，我是超文。有什么可以帮你的吗？"
+    },
+    {
+      "id": "vits-piper-zh_CN-huayan-medium",
+      "label": "华研（女声 · 普通话）",
+      "description": "64 MB · 完全离线 · Apache-2.0（Piper）。中文女声，断句自然，64 MB 在手机上不算大。",
+      "badge": "64 MB",
+      "sizeBytes": 67255926,
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-zh_CN-huayan-medium.tar.bz2",
+      "mirrors": [],
+      "sampleText": "你好呀，我是华研。今天想聊点什么？"
+    },
+    {
+      "id": "vits-zh-hf-fanchen-unity",
+      "label": "泛尘（女声 · 多说话人）",
+      "description": "114 MB · 完全离线 · 社区模型（个人/非商用）。音色更接近真人，适合当人设的默认声音。",
+      "badge": "114 MB",
+      "sizeBytes": 119143475,
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-zh-hf-fanchen-unity.tar.bz2",
+      "mirrors": [],
+      "sampleText": "你好，我是运行在你手机上的语音模型。"
+    },
+    {
+      "id": "sherpa-onnx-vits-zh-ll",
+      "label": "LL-VITS（中文 · 带词典）",
+      "description": "113 MB · 完全离线 · Apache-2.0。带中文 lexicon：数字、日期、多音字读得更准，适合长句朗读。",
+      "badge": "113 MB",
+      "sizeBytes": 118810709,
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-vits-zh-ll.tar.bz2",
+      "mirrors": [],
+      "sampleText": "数字 2026 年 10 月 15 日，多音字「行」在这里读 háng。"
+    },
+    {
+      "id": "sherpa-onnx-zipvoice-distill-int8-zh-en-emilia",
+      "label": "声音克隆底模（中英 · 零样本）",
+      "description": "109 MB · 完全离线 · Apache-2.0（ZipVoice2）。上传一段你的录音即可复刻音色，无需训练。",
+      "badge": "克隆",
+      "sizeBytes": 109162785,
+      "clonable": true,
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-zipvoice-distill-int8-zh-en-emilia.tar.bz2",
+      "mirrors": [],
+      "sampleText": "这是用我的声音克隆出来的音色，以后就用这个声音和你说话。"
+    }
+  ]
+}
