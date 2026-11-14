@@ -1,6 +1,66 @@
 {
   "themes": [
     {
+      "id": "dev.localmind.theme.nekoha",
+      "name": "猫羽雫 · 月猫夜话",
+      "author": "LocalMind",
+      "description": "猫羽雫重制版：夜蓝月色壁纸、液态玻璃气泡、星光动效，四类卡片各自独立样式，附三档字体与三页专属背景。",
+      "version": "3.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/nekoha.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/nekoha.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/nekoha.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/nekoha.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/nekoha.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/nekoha.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/nekoha.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/nekoha.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/nekoha.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/nekoha.png"
+      ],
+      "sizeBytes": 3340513,
+      "tags": [
+        "二次元",
+        "暗色",
+        "猫羽雫",
+        "组件级",
+        "动态"
+      ],
+      "bubbleId": "bubble_liquid_aqua"
+    },
+    {
+      "id": "dev.localmind.theme.vangogh-starry-night",
+      "name": "星月夜 · 梵高",
+      "author": "LocalMind",
+      "description": "梵高《星月夜》原作：油画纸纹气泡、缓慢旋转星云与星光、鎏金强调色，四类卡片各自独立样式，附三档字体与三页专属背景。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/vangogh.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/vangogh.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/vangogh.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/vangogh.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/vangogh.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/vangogh.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/vangogh.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/vangogh.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/vangogh.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/vangogh.png"
+      ],
+      "sizeBytes": 5883961,
+      "tags": [
+        "艺术",
+        "暗色",
+        "梵高",
+        "油画",
+        "动态"
+      ],
+      "bubbleId": "bubble_paper"
+    },
+    {
       "id": "dev.localmind.theme.qq-classic",
       "name": "QQ经典蓝",
       "author": "LocalMind",
@@ -440,34 +500,6 @@
         "暗色",
         "壁纸",
         "极光"
-      ]
-    },
-    {
-      "id": "dev.localmind.theme.nekoha",
-      "name": "猫娘",
-      "author": "LocalMind",
-      "description": "夜色猫娘主题：猫耳少女壁纸、圆滚滚气泡、圆角方头像、圆点指示器、玻璃卡片。",
-      "version": "2.0.0",
-      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/nekoha.zip",
-      "mirrors": [
-        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/nekoha.zip",
-        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/nekoha.zip",
-        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/nekoha.zip",
-        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/nekoha.zip"
-      ],
-      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/nekoha.png",
-      "previewMirrors": [
-        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/nekoha.png",
-        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/nekoha.png",
-        "https://isnananya.github.io/LocalMind-Data/data/previews/nekoha.png",
-        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/nekoha.png"
-      ],
-      "sizeBytes": 712025,
-      "tags": [
-        "二次元",
-        "暗色",
-        "壁纸",
-        "猫娘"
       ]
     },
     {
