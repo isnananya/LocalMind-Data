@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.0.6",
-  "versionCode": 10006,
+  "latestVersion": "1.0.7",
+  "versionCode": 10007,
   "forceUpdate": false,
-  "changelog": "捐献榜/公告/版本检查改为 GitHub 实时拉取",
-  "downloadUrl": "https://github.com/isnananya/LocalMind-Android/releases",
+  "changelog": "## LocalMind 1.0.7\n\n**主题商店**\n- 全新排版：顶部「当前主题」大卡 + 下方双列网格\n- 去掉「内置主题」分组，全部走商店；已下载的主题直接应用，不再重复下载\n- 8 个新主题上架（星落 / 月井 / 彗星 / 晴空 / 猫娘 / 霜序 / 赛博 / 奶油），64 项主题令牌全量可改\n- 下载提速：多 GitHub 代理竞速 + 8 段并行，卡片显示百分比进度\n\n**公告与更新**\n- 公告实时轮询拉取，有新公告直接弹窗\n- 新增「检测更新」入口，支持稳定版 / 测试版双通道\n\n**我的 → 更多**\n- 「我的」页面更名为「更多」，新增检查更新入口\n\n**语音（TTS）**\n- 音色试听：选中即试听，不覆盖已有合成结果\n- 音频分享：合成结果和单条 take 均可直接分享\n- 音色库支持搜索 + 筛选（全部 / 已下载 / 未下载 / 可克隆）、显示占用空间\n- 全局「停止朗读」胶囊，随时打断播报\n\n**其他**\n- 修复若干闪退问题",
+  "downloadUrl": "https://github.com/isnananya/LocalMind-Android/releases/download/v1.0.7/LocalMind-1.0.7-debug.apk",
   "publishedAt": "2026-11-14"
 }
