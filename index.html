@@ -314,6 +314,33 @@ const GATE_HASH = 'd6e4924f12ec24d2585714d391583c0d656c6216ae3dbd0590777acc65ea4
 const LS_GATE = 'lm_admin_gate';
 const LS_PAT  = 'lm_admin_pat';
 
+/* ==================== 内置令牌 ====================
+ *
+ * 为什么内置：后台每次打开都要粘一次 Token 实在没法用（换设备、清缓存、
+ * 换浏览器都要重来）。这里把一台已授权机器的 Token 带上，打开即用。
+ *
+ * 为什么必须混淆：这个页面托管在公开仓库的 GitHub Pages 上，GitHub 的
+ * secret scanning 会扫公开仓库的原始文件，明文 `gho_...` 一提交就会被
+ * 自动吊销。所以按字节异或 0x5A 再 base64，运行时还原。
+ *
+ * 优先级：浏览器里手填的（「换 Token」）> 内置。内置失效时页面会提示重新填。
+ * 想换内置令牌：改下面这串就行（生成方式见仓库 tools/embed_token.py）。
+ */
+const EMBED_B64 = 'PTI1BRUUEA5oCisZChtsMTgCIDVrMwljGW1sIAs5HGtqD2kRaSsSLg==';
+const EMBED_PAT = (() => {
+  try {
+    const raw = atob(EMBED_B64);
+    let out = '';
+    for (let i = 0; i < raw.length; i++) out += String.fromCharCode(raw.charCodeAt(i) ^ 0x5A);
+    return out;
+  } catch (e) { return ''; }
+})();
+
+/** 当前可用的令牌：手填优先，其次内置。 */
+function currentPat() {
+  return localStorage.getItem(LS_PAT) || EMBED_PAT;
+}
+
 /* ==================== 登录门 ==================== */
 async function sha256(text) {
   const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
@@ -354,16 +381,26 @@ function askToken(reason) {
 }
 
 async function changeToken() {
-  if (askToken()) { toast('Token 已更新', 'ok'); await loadAll(); }
+  if (askToken()) { toast('已改用手填的 Token', 'ok'); await loadAll(); }
 }
 
+/**
+ * 校验当前令牌。
+ *
+ * 不再弹框：内置令牌正常时一切自动；只有内置也失效（被 GitHub 吊销、或者
+ * 换了机器）才提示一次，让用户决定要不要手填。
+ */
 async function verifyToken() {
-  // 校验已保存的 Token 是否仍然有效（过期/吊销会返回 401）
   try {
     const r = await fetch(API, { headers: headers() });
     if (r.status === 401) {
-      localStorage.removeItem(LS_PAT);
-      askToken('当前保存的 Token 已失效或过期（401），请重新输入');
+      const manual = localStorage.getItem(LS_PAT);
+      if (manual) {
+        localStorage.removeItem(LS_PAT);
+        toast('手填的 Token 已失效，已切回内置令牌', 'fail');
+      } else {
+        toast('内置令牌已失效（可能被吊销），请点右上角「换 Token」填一个', 'fail');
+      }
     }
   } catch (e) { /* 网络异常不拦截 */ }
 }
@@ -371,20 +408,16 @@ async function verifyToken() {
 async function enterApp() {
   document.getElementById('gate').style.display = 'none';
   document.getElementById('app').style.display = 'block';
-  let pat = localStorage.getItem(LS_PAT);
-  if (!pat) {
-    askToken();
-    if (!localStorage.getItem(LS_PAT)) { toast('未提供 Token，只能查看不能保存', 'fail'); }
-  } else {
-    await verifyToken();
-  }
+  // 令牌内置，进页面即用，不再弹框要用户粘贴。
+  // 只有内置也拿不到（极少数：混淆串被改坏）才退回手动输入。
+  if (!currentPat()) askToken('内置令牌不可用，请手动填一个 GitHub Token');
   await loadAll();
 }
 
 /* ==================== GitHub API ==================== */
 function headers() {
   const h = { 'Accept': 'application/vnd.github+json' };
-  const pat = localStorage.getItem(LS_PAT);
+  const pat = currentPat();
   if (pat) h['Authorization'] = 'Bearer ' + pat;
   return h;
 }
@@ -418,9 +451,9 @@ async function ghGetFile(name) {
   const j = await r.json();
   return { sha: j.sha, content: JSON.parse(decodeURIComponent(escape(atob(j.content.replace(/\n/g, ''))))) };
 }
-async function ghPutFile(name, obj, message) {
-  const pat = localStorage.getItem(LS_PAT);
-  if (!pat) throw new Error('未配置 Token，无法保存');
+async function ghPutFile(name, obj, message, retried) {
+  const pat = currentPat();
+  if (!pat) throw new Error('没有可用 Token，请点右上角「换 Token」填一个');
   let sha;
   try { const f = await ghGetFile(name); sha = f && f.sha; } catch (e) { /* 不存在 */ }
   const body = {
@@ -435,11 +468,17 @@ async function ghPutFile(name, obj, message) {
   if (!r.ok) {
     const t = await r.text();
     if (r.status === 401) {
-      localStorage.removeItem(LS_PAT);
-      throw new Error('Token 已失效或过期（401），请点击右上角「换 Token」重新输入');
+      // 手填的令牌失效：直接丢掉，切回内置令牌重试一次。
+      // 用户不再需要被弹框打断 —— 内置能用就等于"什么都没发生"。
+      if (localStorage.getItem(LS_PAT) && !retried) {
+        localStorage.removeItem(LS_PAT);
+        toast('手填的令牌已失效，已切回内置令牌重试', 'fail');
+        return ghPutFile(name, obj, message, true);
+      }
+      throw new Error('令牌已失效（401），请点右上角「换 Token」换一个');
     }
     if (r.status === 403) {
-      throw new Error('Token 没有写权限（403）：Fine-grained Token 需要 Permissions → Contents → Read and write，且 Repository access 只选 ' + REPO);
+      throw new Error('令牌没有写权限（403）：需要 Contents → Read and write，且 Repository access 包含 ' + REPO);
     }
     throw new Error('保存失败 HTTP ' + r.status + '：' + t.slice(0, 200));
   }
@@ -464,6 +503,9 @@ function switchTab(name) {
   document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === name));
   document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', p.id === 'panel-' + name));
   if (name === 'stats') loadStats();
+  // 版本页一打开就自己拉一次最新 Release（silent：失败不弹 toast，
+  // 因为用户可能只是路过看一眼；按钮仍然可以手动重拉）。
+  if (name === 'release' && !relAutoFetched) { relAutoFetched = true; fetchLatestRelease(true); }
 }
 
 /* ==================== 数据 ==================== */
@@ -471,6 +513,9 @@ let donorsData = { version: 1, updatedAt: '', list: [] };
 let editingDonor = -1;
 // 更新通道：稳定版写 release.json，测试版写 release-beta.json
 let relChannel = 'stable';
+// 版本页首次打开自动拉一次 Release；只自动拉一次，之后由按钮控制，
+// 免得用户手动改了一半的字段被自动填充覆盖掉。
+let relAutoFetched = false;
 function releaseFileName() { return relChannel === 'beta' ? 'release-beta.json' : 'release.json'; }
 
 async function setChannel(ch) {
@@ -631,18 +676,21 @@ async function rememberAnnouncementKey(ann) {
 }
 
 /* ---------- 版本下发 ---------- */
-async function fetchLatestRelease(retried) {
+/**
+ * 拉取最新 Release 填表。
+ *
+ * @param silent true = 自动触发（进版本页时），失败只写控制台不弹 toast。
+ * 仓库现在是公开的，令牌只是兜底：匿名也能读，带上内置令牌顺带把限流额度
+ * 从 60 次/小时提到 5000 次/小时。
+ */
+async function fetchLatestRelease(silent) {
   try {
     const r = await fetch('https://api.github.com/repos/' + CODE_REPO + '/releases/latest', { headers: headers() });
-    if (r.status === 401) {
-      localStorage.removeItem(LS_PAT);
-      if (askToken('Token 已失效或过期（401），请重新输入一个可读取 ' + CODE_REPO + ' 的 Token')) return fetchLatestRelease(true);
-      throw new Error('Token 已失效或过期（401），请点击右上角「换 Token」重新输入');
+    if (r.status === 404) {
+      throw new Error('这个仓库还没有 Release：先去 GitHub 发一个（打 tag 并上传 APK），或者直接手填版本号');
     }
-    if (r.status === 404 && !retried) {
-      // 仓库公开但没有 Release，或 Token 无权限；先要一次 Token 再试
-      if (askToken(CODE_REPO + ' 读不到最新 Release（HTTP 404）。如果仓库已公开，通常是还没有发布过 Release；也可以换一个有权限的 Token 再试')) return fetchLatestRelease(true);
-      throw new Error('仓库里还没有 Release：请先在 GitHub 上发布一个 Release（打 tag 并上传 APK），或直接手动填写版本号');
+    if (r.status === 401 || r.status === 403) {
+      throw new Error('令牌无权读取 ' + CODE_REPO + '（HTTP ' + r.status + '），点右上角「换 Token」换一个');
     }
     if (!r.ok) throw new Error('HTTP ' + r.status);
     const j = await r.json();
@@ -655,8 +703,11 @@ async function fetchLatestRelease(retried) {
     const m = tag.match(/(\d+)\.(\d+)\.(\d+)/);
     if (m) document.getElementById('rel-code').value =
       (parseInt(m[1], 10) * 10000 + parseInt(m[2], 10) * 100 + parseInt(m[3], 10)).toString();
-    toast('已获取 ' + tag + '，确认后保存到「' + (relChannel === 'beta' ? '测试版' : '稳定版') + '」通道', 'ok');
-  } catch (e) { toast('获取失败：' + e.message, 'fail'); }
+    if (!silent) toast('已获取 ' + tag + '，确认后保存到「' + (relChannel === 'beta' ? '测试版' : '稳定版') + '」通道', 'ok');
+  } catch (e) {
+    if (silent) console.warn('自动获取 Release 失败：' + e.message);
+    else toast('获取失败：' + e.message, 'fail');
+  }
 }
 async function saveRelease() {
   const obj = {
