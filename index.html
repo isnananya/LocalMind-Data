@@ -188,7 +188,10 @@
         <div class="title">LocalMind 数据管理</div>
         <div class="sub" id="conn-status"><span class="status-dot bad"></span>未连接</div>
       </div>
-      <button class="btn btn-ghost btn-sm" onclick="logout()">退出</button>
+      <div style="display:flex; gap:6px">
+        <button class="btn btn-ghost btn-sm" onclick="changeToken()">换 Token</button>
+        <button class="btn btn-ghost btn-sm" onclick="logout()">退出</button>
+      </div>
     </header>
 
     <div class="tabs">
@@ -310,20 +313,45 @@ function logout() {
   location.reload();
 }
 
+function askToken(reason) {
+  const tip = (reason ? reason + '\n\n' : '') +
+    '请输入 GitHub Fine-grained Access Token\n\n' +
+    '创建方式：GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens\n' +
+    '· Repository access：只选 ' + REPO + '\n' +
+    '· Permissions：Contents → Read and write\n\n' +
+    '（Token 只保存在本浏览器 localStorage，不会上传）';
+  const pat = prompt(tip);
+  if (pat && pat.trim()) {
+    localStorage.setItem(LS_PAT, pat.trim());
+    return true;
+  }
+  return false;
+}
+
+async function changeToken() {
+  if (askToken()) { toast('Token 已更新', 'ok'); await loadAll(); }
+}
+
+async function verifyToken() {
+  // 校验已保存的 Token 是否仍然有效（过期/吊销会返回 401）
+  try {
+    const r = await fetch(API, { headers: headers() });
+    if (r.status === 401) {
+      localStorage.removeItem(LS_PAT);
+      askToken('当前保存的 Token 已失效或过期（401），请重新输入');
+    }
+  } catch (e) { /* 网络异常不拦截 */ }
+}
+
 async function enterApp() {
   document.getElementById('gate').style.display = 'none';
   document.getElementById('app').style.display = 'block';
   let pat = localStorage.getItem(LS_PAT);
   if (!pat) {
-    pat = prompt(
-      '首次使用：请输入 GitHub Fine-grained Access Token\n\n' +
-      '创建方式：GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens\n' +
-      '· Repository access：只选 ' + REPO + '\n' +
-      '· Permissions：Contents → Read and write\n\n' +
-      '（Token 只保存在本浏览器 localStorage，不会上传）'
-    );
-    if (!pat) { toast('未提供 Token，只能查看不能保存', 'fail'); }
-    else { localStorage.setItem(LS_PAT, pat.trim()); }
+    askToken();
+    if (!localStorage.getItem(LS_PAT)) { toast('未提供 Token，只能查看不能保存', 'fail'); }
+  } else {
+    await verifyToken();
   }
   await loadAll();
 }
@@ -381,6 +409,13 @@ async function ghPutFile(name, obj, message) {
   });
   if (!r.ok) {
     const t = await r.text();
+    if (r.status === 401) {
+      localStorage.removeItem(LS_PAT);
+      throw new Error('Token 已失效或过期（401），请点击右上角「换 Token」重新输入');
+    }
+    if (r.status === 403) {
+      throw new Error('Token 没有写权限（403）：Fine-grained Token 需要 Permissions → Contents → Read and write，且 Repository access 只选 ' + REPO);
+    }
     throw new Error('保存失败 HTTP ' + r.status + '：' + t.slice(0, 200));
   }
   return r.json();
@@ -538,6 +573,10 @@ async function saveAnnounce() {
 async function fetchLatestRelease() {
   try {
     const r = await fetch('https://api.github.com/repos/' + CODE_REPO + '/releases/latest', { headers: headers() });
+    if (r.status === 401) {
+      localStorage.removeItem(LS_PAT);
+      throw new Error('Token 已失效或过期（401），请点击右上角「换 Token」重新输入');
+    }
     if (!r.ok) throw new Error('HTTP ' + r.status + '（私有仓库需要 Token 同时授权 ' + CODE_REPO + ' 的 Contents 读取）');
     const j = await r.json();
     const tag = (j.tag_name || '').replace(/^v/, '');
