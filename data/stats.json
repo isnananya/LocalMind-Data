@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-11-14T18:24:25Z",
-  "devices": 2,
+  "updatedAt": "2026-11-14T22:40:40Z",
+  "devices": 4,
   "activeToday": 2,
   "versions": [
+    {
+      "versionCode": 10012,
+      "version": "1.0.12",
+      "devices": 3
+    },
+    {
+      "versionCode": 10011,
+      "version": "1.0.11",
+      "devices": 1
+    },
     {
       "versionCode": 10010,
       "version": "1.0.10",
@@ -77,12 +87,12 @@
       "id": "2026-11-14-welcome",
       "title": "欢迎使用 LocalMind",
       "publishedAt": "2026-11-14",
-      "reads": 2
+      "reads": 4
     }
   ],
   "stable": {
-    "version": "1.0.10",
-    "versionCode": 10010
+    "version": "1.0.12",
+    "versionCode": 10012
   },
   "beta": {
     "version": "1.1.0-beta3",
@@ -90,7 +100,7 @@
   },
   "inbox": {
     "version": 1,
-    "updatedAt": "2026-11-14T18:24:25Z",
+    "updatedAt": "2026-11-14T22:40:40Z",
     "items": [
       {
         "model": "Xiaomi 24031PN0DC",
@@ -181,16 +191,142 @@
         "ts": 1794679251047,
         "nid": "7lGMk9SPufGn",
         "recvAt": 1794679252
+      },
+      {
+        "model": "Xiaomi 24031PN0DC",
+        "brand": "Xiaomi",
+        "android": "16",
+        "sdk": 36,
+        "ramMb": 15167,
+        "cpu": "SM8650",
+        "cores": 8,
+        "abi": "arm64-v8a",
+        "screen": "1440x3200",
+        "versionName": "1.0.11",
+        "versionCode": 10011,
+        "channel": "stable",
+        "kind": "device",
+        "id": "0766143d06694855",
+        "ts": 1794682895778,
+        "nid": "HohnNehcAZAx",
+        "recvAt": 1794682899
+      },
+      {
+        "model": "Xiaomi 24031PN0DC",
+        "brand": "Xiaomi",
+        "android": "16",
+        "sdk": 36,
+        "ramMb": 15167,
+        "cpu": "SM8650",
+        "cores": 8,
+        "abi": "arm64-v8a",
+        "screen": "1440x3200",
+        "versionName": "1.0.12",
+        "versionCode": 10012,
+        "channel": "stable",
+        "kind": "device",
+        "id": "0766143d06694855",
+        "ts": 1794686202257,
+        "nid": "TRr0K67YYtAC",
+        "recvAt": 1794686204
+      },
+      {
+        "model": "Xiaomi 24031PN0DC",
+        "brand": "Xiaomi",
+        "android": "16",
+        "sdk": 36,
+        "ramMb": 15167,
+        "cpu": "SM8650",
+        "cores": 8,
+        "abi": "arm64-v8a",
+        "screen": "1440x3200",
+        "versionName": "1.0.12",
+        "versionCode": 10012,
+        "channel": "stable",
+        "kind": "device",
+        "id": "905a51a224d54316",
+        "ts": 1794686919014,
+        "nid": "cHu3csbwB997",
+        "recvAt": 1794686919
+      },
+      {
+        "action": "reject",
+        "from": "1.0.12",
+        "to": "1.1.0-beta3",
+        "channel": "beta",
+        "kind": "update",
+        "id": "905a51a224d54316",
+        "ts": 1794688791450,
+        "nid": "1CisYfWpWX57",
+        "recvAt": 1794688794
+      },
+      {
+        "action": "reject",
+        "from": "1.0.12",
+        "to": "1.1.0-beta3",
+        "channel": "beta",
+        "kind": "update",
+        "id": "905a51a224d54316",
+        "ts": 1794688795129,
+        "nid": "k4QUnKjRs87P",
+        "recvAt": 1794688795
+      },
+      {
+        "model": "Xiaomi 24031PN0DC",
+        "brand": "Xiaomi",
+        "android": "16",
+        "sdk": 36,
+        "ramMb": 15167,
+        "cpu": "SM8650",
+        "cores": 8,
+        "abi": "arm64-v8a",
+        "screen": "1440x3200",
+        "versionName": "1.0.12",
+        "versionCode": 10012,
+        "channel": "stable",
+        "kind": "device",
+        "id": "f6f336ee01b743a1",
+        "ts": 1794691986023,
+        "nid": "ZHjkXAOrjOkD",
+        "recvAt": 1794691989
+      },
+      {
+        "model": "Xiaomi 24031PN0DC",
+        "brand": "Xiaomi",
+        "android": "16",
+        "sdk": 36,
+        "ramMb": 15167,
+        "cpu": "SM8650",
+        "cores": 8,
+        "abi": "arm64-v8a",
+        "screen": "1440x3200",
+        "versionName": "1.0.10",
+        "versionCode": 10010,
+        "channel": "stable",
+        "stack": "java.lang.RuntimeException: Cannot create an instance of class v1.C1\n\tat androidx.lifecycle.P.d(Unknown Source:58)\n\tat androidx.lifecycle.P.a(Unknown Source:4)\n\tat androidx.lifecycle.P.b(Unknown Source:4)\n\tat androidx.lifecycle.M.b(Unknown Source:63)\n\tat androidx.lifecycle.Q.c(Unknown Source:4)\n\tat G0.i.j(Unknown Source:81)\n\tat A.F.o(Unknown Source:92)\n\tat B0.q.getValue(Unknown Source:62)\n\tat A1.Z0.invoke(Unknown Source:103)\n\tat P.b.invoke(Unknown Source:51)\n\tat t0.i0.a(Unknown Source:69)\n\tat B0.a.invoke(Unknown Source:134)\n\tat P.b.invoke(Unknown Source:51)\n\tat H.d.b(Unknown Source:149)\n\tat t0.j0.a(Unknown Source:308)\n\tat C.E.invoke(Unknown Source:178)\n\tat P.b.invoke(Unknown Source:51)\n\tat H.d.b(Unknown Source:149)\n\tat androidx.compose.ui.platform.AndroidCompositionLocals_androidKt.a(Unknown Source:588)\n\tat t0.o1.invoke(Unknown Source:249)\n\tat P.b.invoke(Unknown Source:51)\n\tat H.d.a(Unknown Source:232)\n\tat t0.o1.invoke(Unknown Source:212)\n\tat P.b.invoke(Unknown Source:51)\n\tat H.d.M(Unknown Source:14)\n\tat H.q.p(Unknown Source:202)\n\tat H.v.k(Unknown Source:31)\n\tat H.C0.a(Unknown Source:44)\n\tat H.v.l(Unknown Source:8)\n\tat H.v.b(Unknown Source:2)\n\tat n.s.invoke(Unknown Source:708)\n\tat t0.u.setOnViewTreeOwnersAvailable(Unknown Source:6)\n\tat t0.p1.b(Unknown Source:9)\n\tat t0.p1.f(Unknown Source:18)\n\tat androidx.lifecycle.u.a(Unknown Source:22)\n\tat androidx.lifecycle.v.a(Unknown Source:250)\n\tat n.s.invoke(Unknown Source:678)\n\tat t0.u.onAttachedToWindow(Unknown Source:113)\n\tat android.view.View.dispatchAttachedToWindow(View.java:23747)\n\tat android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:3545)\n\tat android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:3552)\n\tat android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:3552)\n\tat android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:3552)\n\tat android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:3552)\n\tat android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:3552)\n\tat android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:4802)\n\tat android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:4177)\n\tat android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:12647)\n\tat android.view.Choreographer$CallbackRecord.run(Choreographer.java:2088)\n\tat android.view.Choreographer$CallbackRecord.run(Choreographer.java:2097)\n\tat android.view.Choreographer.doCallbacks(Choreographer.java:1572)\n\tat android.view.Choreographer.doFrame(Choreographer.java:1453)\n\tat android.view.Choreographer$FrameHandler.handleMessage(Choreographer.java:1903)\n\tat android.os.Handler.dispat",
+        "note": "",
+        "kind": "crash",
+        "id": "f6f336ee01b743a1",
+        "ts": 1794691989870,
+        "nid": "Bjnm7oURlw2y",
+        "recvAt": 1794691990
       }
     ],
     "seen": [
-      "sfIvOEim6W2k",
-      "NobcgKT4rPmJ",
+      "7lGMk9SPufGn",
       "8vgZQzWsUddX",
-      "1ew8mYvqoveW",
+      "k4QUnKjRs87P",
+      "NobcgKT4rPmJ",
       "A0nvWW41ePYV",
-      "jl8g2eOi1xOs",
-      "7lGMk9SPufGn"
+      "ZHjkXAOrjOkD",
+      "1CisYfWpWX57",
+      "sfIvOEim6W2k",
+      "cHu3csbwB997",
+      "Bjnm7oURlw2y",
+      "HohnNehcAZAx",
+      "TRr0K67YYtAC",
+      "1ew8mYvqoveW",
+      "jl8g2eOi1xOs"
     ]
   }
 }
