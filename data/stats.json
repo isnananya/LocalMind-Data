@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T12:24:09Z",
+  "updatedAt": "2026-11-14T14:23:44Z",
   "devices": 0,
   "activeToday": 0,
   "versions": [],
@@ -70,11 +70,28 @@
     }
   ],
   "stable": {
-    "version": "1.0.6",
-    "versionCode": 10006
+    "version": "1.0.7",
+    "versionCode": 10007
   },
   "beta": {
     "version": "",
     "versionCode": 0
+  },
+  "inbox": {
+    "version": 1,
+    "updatedAt": "2026-11-14T14:23:44Z",
+    "items": [
+      {
+        "kind": "idea",
+        "text": "测试：希望支持导出聊天记录",
+        "model": "Test Device",
+        "versionName": "1.0.8",
+        "versionCode": 10008,
+        "id": "testinstall01",
+        "ts": 1794665000000,
+        "nid": "A0nvWW41ePYV",
+        "recvAt": 1794665134
+      }
+    ]
   }
 }
