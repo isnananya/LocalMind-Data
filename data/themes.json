@@ -189,6 +189,115 @@
         "暖色",
         "纸质"
       ]
+    },
+    {
+      "id": "dev.localmind.theme.starfall",
+      "name": "星夜",
+      "author": "LocalMind",
+      "description": "紫蓝流星夜城壁纸，磨砂玻璃气泡与悬浮胶囊底栏。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/starfall.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/starfall.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/starfall.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/starfall.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/starfall.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/starfall.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/starfall.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/starfall.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/starfall.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/starfall.png"
+      ],
+      "sizeBytes": 220920,
+      "tags": [
+        "暗色",
+        "壁纸",
+        "磨砂",
+        "二次元"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.moonwell",
+      "name": "月栖",
+      "author": "LocalMind",
+      "description": "青绿月下湖谷壁纸，冷色磨砂玻璃。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/moonwell.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/moonwell.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/moonwell.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/moonwell.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/moonwell.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/moonwell.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/moonwell.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/moonwell.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/moonwell.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/moonwell.png"
+      ],
+      "sizeBytes": 210799,
+      "tags": [
+        "暗色",
+        "壁纸",
+        "磨砂"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.comet",
+      "name": "彗星",
+      "author": "LocalMind",
+      "description": "低饱和彗星夜城壁纸，冷灰蓝玻璃质感。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/comet.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/comet.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/comet.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/comet.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/comet.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/comet.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/comet.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/comet.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/comet.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/comet.png"
+      ],
+      "sizeBytes": 476896,
+      "tags": [
+        "暗色",
+        "壁纸",
+        "低饱和"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.clearsky",
+      "name": "晴空",
+      "author": "LocalMind",
+      "description": "蓝天白云壁纸，透亮的浅色磨砂玻璃。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/clearsky.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/clearsky.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/clearsky.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/clearsky.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/clearsky.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/clearsky.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/clearsky.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/clearsky.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/clearsky.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/clearsky.png"
+      ],
+      "sizeBytes": 298265,
+      "tags": [
+        "浅色",
+        "壁纸",
+        "清爽"
+      ]
     }
   ]
 }
