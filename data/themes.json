@@ -973,6 +973,216 @@
         "浅色",
         "甜美"
       ]
+    },
+    {
+      "id": "dev.localmind.theme.anime-starfire",
+      "name": "星火列车",
+      "author": "LocalMind",
+      "description": "崩坏：星穹铁道 · 流萤与彗星夜空，深色玻璃卡片。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-starfire.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-starfire.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-starfire.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-starfire.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/anime-starfire.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/anime-starfire.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-starfire.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-starfire.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-starfire.png",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-starfire.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/anime-starfire.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/anime-starfire.png"
+      ],
+      "sizeBytes": 334352,
+      "tags": [
+        "二次元",
+        "暗色",
+        "壁纸",
+        "星穹铁道"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.anime-studio",
+      "name": "午后声场",
+      "author": "LocalMind",
+      "description": "唱片店里的午后，暖粉灯光与木质唱片架。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-studio.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-studio.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-studio.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-studio.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/anime-studio.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/anime-studio.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-studio.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-studio.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-studio.png",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-studio.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/anime-studio.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/anime-studio.png"
+      ],
+      "sizeBytes": 384382,
+      "tags": [
+        "二次元",
+        "暖色",
+        "壁纸",
+        "室内"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.anime-butterfly",
+      "name": "蝶与浮空",
+      "author": "LocalMind",
+      "description": "紫色天幕下的蝶影与浮空遗迹，冷紫霓虹。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-butterfly.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-butterfly.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-butterfly.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-butterfly.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/anime-butterfly.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/anime-butterfly.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-butterfly.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-butterfly.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-butterfly.png",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-butterfly.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/anime-butterfly.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/anime-butterfly.png"
+      ],
+      "sizeBytes": 249540,
+      "tags": [
+        "二次元",
+        "暗色",
+        "壁纸",
+        "幻想"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.anime-onodera",
+      "name": "尾道夏日",
+      "author": "LocalMind",
+      "description": "日系海边小镇的通学路，晴空白云与电线杆。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-onodera.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-onodera.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-onodera.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-onodera.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/anime-onodera.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/anime-onodera.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-onodera.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-onodera.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-onodera.png",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-onodera.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/anime-onodera.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/anime-onodera.png"
+      ],
+      "sizeBytes": 213731,
+      "tags": [
+        "二次元",
+        "浅色",
+        "壁纸",
+        "风景"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.anime-crystal",
+      "name": "冰晶少女",
+      "author": "LocalMind",
+      "description": "冰蓝晶体与粉发少女，清爽高亮配色。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-crystal.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-crystal.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-crystal.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-crystal.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/anime-crystal.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/anime-crystal.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-crystal.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-crystal.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-crystal.png",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-crystal.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/anime-crystal.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/anime-crystal.png"
+      ],
+      "sizeBytes": 380825,
+      "tags": [
+        "二次元",
+        "浅色",
+        "壁纸",
+        "清爽"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.anime-snowfield",
+      "name": "雪境旅人",
+      "author": "LocalMind",
+      "description": "原神 · 雪原上的旅人，冷白与远山。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-snowfield.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-snowfield.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-snowfield.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-snowfield.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/anime-snowfield.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/anime-snowfield.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-snowfield.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-snowfield.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-snowfield.png",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-snowfield.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/anime-snowfield.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/anime-snowfield.png"
+      ],
+      "sizeBytes": 124143,
+      "tags": [
+        "二次元",
+        "浅色",
+        "壁纸",
+        "原神"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.anime-starcity",
+      "name": "星海之城",
+      "author": "LocalMind",
+      "description": "崩坏：星穹铁道 · 都市夜景与双人背影，深蓝霓虹。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-starcity.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-starcity.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-starcity.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/anime-starcity.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/anime-starcity.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/anime-starcity.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-starcity.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-starcity.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-starcity.png",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/anime-starcity.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/anime-starcity.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/anime-starcity.png"
+      ],
+      "sizeBytes": 352496,
+      "tags": [
+        "二次元",
+        "暗色",
+        "壁纸",
+        "星穹铁道"
+      ]
     }
   ]
 }
