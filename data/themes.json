@@ -1,60 +1,6 @@
 {
   "themes": [
     {
-      "id": "dev.localmind.theme.sakura",
-      "name": "樱雪物语",
-      "author": "LocalMind",
-      "description": "二次元粉紫风格：带樱花壁纸、尾巴气泡、玻璃卡片、圆头像。",
-      "version": "1.0.0",
-      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/sakura.zip",
-      "mirrors": [
-        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/sakura.zip",
-        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/sakura.zip",
-        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/sakura.zip",
-        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/sakura.zip"
-      ],
-      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/sakura.png",
-      "previewMirrors": [
-        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/sakura.png",
-        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/sakura.png",
-        "https://isnananya.github.io/LocalMind-Data/data/previews/sakura.png",
-        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/sakura.png"
-      ],
-      "sizeBytes": 1704978,
-      "tags": [
-        "二次元",
-        "浅色",
-        "壁纸"
-      ]
-    },
-    {
-      "id": "dev.localmind.theme.aurora-night",
-      "name": "极光夜航",
-      "author": "LocalMind",
-      "description": "暗色极光风格：星空壁纸、霓虹青强调色、拟物卡片、方角头像。",
-      "version": "1.0.0",
-      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/aurora-night.zip",
-      "mirrors": [
-        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/aurora-night.zip",
-        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/aurora-night.zip",
-        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/aurora-night.zip",
-        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/aurora-night.zip"
-      ],
-      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/aurora-night.png",
-      "previewMirrors": [
-        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/aurora-night.png",
-        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/aurora-night.png",
-        "https://isnananya.github.io/LocalMind-Data/data/previews/aurora-night.png",
-        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/aurora-night.png"
-      ],
-      "sizeBytes": 1998257,
-      "tags": [
-        "暗色",
-        "壁纸",
-        "极简"
-      ]
-    },
-    {
       "id": "dev.localmind.theme.qq-classic",
       "name": "QQ经典蓝",
       "author": "LocalMind",
@@ -82,11 +28,66 @@
       ]
     },
     {
-      "id": "dev.localmind.theme.nekoha",
-      "name": "猫羽雫",
+      "id": "dev.localmind.theme.sakura",
+      "name": "樱雪物语",
       "author": "LocalMind",
-      "description": "暗夜二次元：猫耳少女壁纸、磨砂玻璃气泡、悬浮胶囊底栏。",
-      "version": "1.0.0",
+      "description": "二次元粉紫风格：樱花壁纸、带尾巴气泡、玻璃卡片、圆头像。",
+      "version": "2.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/sakura.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/sakura.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/sakura.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/sakura.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/sakura.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/sakura.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/sakura.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/sakura.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/sakura.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/sakura.png"
+      ],
+      "sizeBytes": 1406141,
+      "tags": [
+        "二次元",
+        "浅色",
+        "壁纸",
+        "粉紫"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.aurora-night",
+      "name": "极光夜航",
+      "author": "LocalMind",
+      "description": "暗色极光风格：星空壁纸、霓虹青强调色、拟物卡片、下划线标签栏、方角头像。",
+      "version": "2.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/aurora-night.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/aurora-night.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/aurora-night.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/aurora-night.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/aurora-night.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/aurora-night.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/aurora-night.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/aurora-night.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/aurora-night.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/aurora-night.png"
+      ],
+      "sizeBytes": 947644,
+      "tags": [
+        "暗色",
+        "壁纸",
+        "极光"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.nekoha",
+      "name": "猫娘",
+      "author": "LocalMind",
+      "description": "夜色猫娘主题：猫耳少女壁纸、圆滚滚气泡、圆角方头像、圆点指示器、玻璃卡片。",
+      "version": "2.0.0",
       "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/nekoha.zip",
       "mirrors": [
         "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/nekoha.zip",
@@ -101,101 +102,20 @@
         "https://isnananya.github.io/LocalMind-Data/data/previews/nekoha.png",
         "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/nekoha.png"
       ],
-      "sizeBytes": 1484824,
+      "sizeBytes": 708538,
       "tags": [
         "二次元",
         "暗色",
         "壁纸",
-        "磨砂"
-      ]
-    },
-    {
-      "id": "dev.localmind.theme.frost",
-      "name": "雾霜",
-      "author": "LocalMind",
-      "description": "浅色磨砂：半透明白气泡、毛玻璃卡片、圆点指示器。",
-      "version": "1.0.0",
-      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/frost.zip",
-      "mirrors": [
-        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/frost.zip",
-        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/frost.zip",
-        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/frost.zip",
-        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/frost.zip"
-      ],
-      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/frost.png",
-      "previewMirrors": [
-        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/frost.png",
-        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/frost.png",
-        "https://isnananya.github.io/LocalMind-Data/data/previews/frost.png",
-        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/frost.png"
-      ],
-      "sizeBytes": 6818,
-      "tags": [
-        "浅色",
-        "磨砂",
-        "极简"
-      ]
-    },
-    {
-      "id": "dev.localmind.theme.cyber",
-      "name": "赛博霓虹",
-      "author": "LocalMind",
-      "description": "黑底霓虹：品红强调、青绿描边、等宽字体、直角底栏。",
-      "version": "1.0.0",
-      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cyber.zip",
-      "mirrors": [
-        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cyber.zip",
-        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cyber.zip",
-        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/cyber.zip",
-        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/cyber.zip"
-      ],
-      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cyber.png",
-      "previewMirrors": [
-        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cyber.png",
-        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cyber.png",
-        "https://isnananya.github.io/LocalMind-Data/data/previews/cyber.png",
-        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/cyber.png"
-      ],
-      "sizeBytes": 4931,
-      "tags": [
-        "暗色",
-        "直角",
-        "高对比"
-      ]
-    },
-    {
-      "id": "dev.localmind.theme.cream",
-      "name": "奶油手账",
-      "author": "LocalMind",
-      "description": "暖米色纸感：衬线字体、带尾巴气泡、圆形指示器。",
-      "version": "1.0.0",
-      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cream.zip",
-      "mirrors": [
-        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cream.zip",
-        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cream.zip",
-        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/cream.zip",
-        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/cream.zip"
-      ],
-      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cream.png",
-      "previewMirrors": [
-        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cream.png",
-        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cream.png",
-        "https://isnananya.github.io/LocalMind-Data/data/previews/cream.png",
-        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/cream.png"
-      ],
-      "sizeBytes": 6137,
-      "tags": [
-        "浅色",
-        "暖色",
-        "纸质"
+        "猫娘"
       ]
     },
     {
       "id": "dev.localmind.theme.starfall",
       "name": "星夜",
       "author": "LocalMind",
-      "description": "紫蓝流星夜城壁纸，磨砂玻璃气泡与悬浮胶囊底栏。",
-      "version": "1.0.0",
+      "description": "紫蓝流星夜：星轨壁纸、悬浮胶囊底栏、玻璃气泡、圆头像、胶囊指示器。",
+      "version": "2.0.0",
       "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/starfall.zip",
       "mirrors": [
         "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/starfall.zip",
@@ -210,20 +130,20 @@
         "https://isnananya.github.io/LocalMind-Data/data/previews/starfall.png",
         "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/starfall.png"
       ],
-      "sizeBytes": 380259,
+      "sizeBytes": 1471015,
       "tags": [
         "暗色",
         "壁纸",
         "磨砂",
-        "二次元"
+        "星空"
       ]
     },
     {
       "id": "dev.localmind.theme.moonwell",
       "name": "月栖",
       "author": "LocalMind",
-      "description": "青绿月下湖谷壁纸，冷色磨砂玻璃。",
-      "version": "1.0.0",
+      "description": "青绿月下湖谷：月夜壁纸、带尾巴气泡、圆角方头像、圆点指示器、玻璃卡片。",
+      "version": "2.0.0",
       "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/moonwell.zip",
       "mirrors": [
         "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/moonwell.zip",
@@ -238,7 +158,7 @@
         "https://isnananya.github.io/LocalMind-Data/data/previews/moonwell.png",
         "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/moonwell.png"
       ],
-      "sizeBytes": 349777,
+      "sizeBytes": 566839,
       "tags": [
         "暗色",
         "壁纸",
@@ -249,8 +169,8 @@
       "id": "dev.localmind.theme.comet",
       "name": "彗星",
       "author": "LocalMind",
-      "description": "低饱和彗星夜城壁纸，冷灰蓝玻璃质感。",
-      "version": "1.0.0",
+      "description": "低饱和彗星夜：冷灰蓝壁纸、重度虚化、渐变卡片、直角头像、下划线指示器。",
+      "version": "2.0.0",
       "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/comet.zip",
       "mirrors": [
         "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/comet.zip",
@@ -265,7 +185,7 @@
         "https://isnananya.github.io/LocalMind-Data/data/previews/comet.png",
         "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/comet.png"
       ],
-      "sizeBytes": 632874,
+      "sizeBytes": 1065625,
       "tags": [
         "暗色",
         "壁纸",
@@ -276,8 +196,8 @@
       "id": "dev.localmind.theme.clearsky",
       "name": "晴空",
       "author": "LocalMind",
-      "description": "蓝天白云壁纸，透亮的浅色磨砂玻璃。",
-      "version": "1.0.0",
+      "description": "蓝天白云：透亮壁纸、胶囊底栏、玻璃气泡、圆头像、胶囊指示器。",
+      "version": "2.0.0",
       "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/clearsky.zip",
       "mirrors": [
         "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/clearsky.zip",
@@ -292,11 +212,261 @@
         "https://isnananya.github.io/LocalMind-Data/data/previews/clearsky.png",
         "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/clearsky.png"
       ],
-      "sizeBytes": 554598,
+      "sizeBytes": 883385,
       "tags": [
         "浅色",
         "壁纸",
         "清爽"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.elemental",
+      "name": "元素幻想",
+      "author": "LocalMind",
+      "description": "异世界幻想（原神风格）：群崖瀑布壁纸、衬线字体、拟物卡片、尾巴气泡、圆点指示器。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/elemental.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/elemental.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/elemental.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/elemental.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/elemental.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/elemental.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/elemental.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/elemental.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/elemental.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/elemental.png"
+      ],
+      "sizeBytes": 1032484,
+      "tags": [
+        "游戏",
+        "幻想",
+        "壁纸",
+        "原神风"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.linedog",
+      "name": "线条小狗",
+      "author": "LocalMind",
+      "description": "黑白涂鸦风（线条小狗风格）：手绘壁纸、直角方框气泡、荧光笔选中、手写体、下划线指示器。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/linedog.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/linedog.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/linedog.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/linedog.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/linedog.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/linedog.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/linedog.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/linedog.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/linedog.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/linedog.png"
+      ],
+      "sizeBytes": 360047,
+      "tags": [
+        "浅色",
+        "涂鸦",
+        "可爱",
+        "线条小狗"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.tealdiva",
+      "name": "青葱音律",
+      "author": "LocalMind",
+      "description": "电音歌姬（初音未来配色）：荧光青强调、舞台暗底、玻璃卡片、胶囊指示器、圆角方头像。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/tealdiva.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/tealdiva.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/tealdiva.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/tealdiva.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/tealdiva.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/tealdiva.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/tealdiva.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/tealdiva.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/tealdiva.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/tealdiva.png"
+      ],
+      "sizeBytes": 1144971,
+      "tags": [
+        "二次元",
+        "暗色",
+        "音乐"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.pixel",
+      "name": "像素世界",
+      "author": "LocalMind",
+      "description": "像素艺术风：便利店像素画壁纸、草绿强调、0 圆角、等宽字体、纯色直角底栏。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/pixel.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/pixel.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/pixel.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/pixel.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/pixel.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/pixel.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/pixel.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/pixel.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/pixel.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/pixel.png"
+      ],
+      "sizeBytes": 1031965,
+      "tags": [
+        "像素",
+        "浅色",
+        "复古"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.sweetdevil",
+      "name": "甜酷小恶魔",
+      "author": "LocalMind",
+      "description": "紫黑甜酷（库洛米风格）：暗紫壁纸、粉紫撞色、磨砂玻璃、圆点指示器、圆角方头像。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/sweetdevil.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/sweetdevil.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/sweetdevil.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/sweetdevil.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/sweetdevil.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/sweetdevil.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/sweetdevil.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/sweetdevil.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/sweetdevil.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/sweetdevil.png"
+      ],
+      "sizeBytes": 460404,
+      "tags": [
+        "二次元",
+        "暗色",
+        "可爱",
+        "库洛米"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.hanabi",
+      "name": "仲夏花火",
+      "author": "LocalMind",
+      "description": "夏日花火大会：夜空烟花壁纸、金色强调、渐变卡片、尾巴气泡、圆头像、悬浮胶囊底栏。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/hanabi.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/hanabi.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/hanabi.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/hanabi.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/hanabi.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/hanabi.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/hanabi.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/hanabi.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/hanabi.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/hanabi.png"
+      ],
+      "sizeBytes": 1199933,
+      "tags": [
+        "暗色",
+        "壁纸",
+        "和风",
+        "花火"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.frost",
+      "name": "雾霜",
+      "author": "LocalMind",
+      "description": "浅色冰晶风格：霜花壁纸、全宽直角标签栏、圆点指示器、磨砂玻璃卡片。",
+      "version": "2.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/frost.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/frost.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/frost.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/frost.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/frost.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/frost.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/frost.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/frost.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/frost.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/frost.png"
+      ],
+      "sizeBytes": 586392,
+      "tags": [
+        "浅色",
+        "磨砂",
+        "壁纸",
+        "冰晶"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.cyber",
+      "name": "赛博霓虹",
+      "author": "LocalMind",
+      "description": "黑底霓虹：赛博城市壁纸、品红强调、等宽字体、直角气泡与底栏、下划线指示器。",
+      "version": "2.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cyber.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cyber.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cyber.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/cyber.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/cyber.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cyber.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cyber.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cyber.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/cyber.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/cyber.png"
+      ],
+      "sizeBytes": 776504,
+      "tags": [
+        "暗色",
+        "直角",
+        "高对比",
+        "赛博"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.cream",
+      "name": "奶油手账",
+      "author": "LocalMind",
+      "description": "暖米色纸感：手账桌面壁纸、衬线字体、带尾巴纸片气泡、圆点指示器、扁平卡片。",
+      "version": "2.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cream.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cream.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cream.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/cream.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/cream.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cream.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cream.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cream.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/cream.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/cream.png"
+      ],
+      "sizeBytes": 360462,
+      "tags": [
+        "浅色",
+        "暖色",
+        "纸质",
+        "手账"
       ]
     }
   ]
