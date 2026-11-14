@@ -41,16 +41,18 @@ def now_iso():
 
 def load_inbox():
     if not os.path.isfile(INBOX):
-        return {"version": 1, "updatedAt": "", "items": []}
+        return {"version": 1, "updatedAt": "", "items": [], "seen": []}
     try:
         with open(INBOX, encoding="utf-8") as f:
             j = json.load(f)
         if not isinstance(j.get("items"), list):
             j["items"] = []
+        if not isinstance(j.get("seen"), list):
+            j["seen"] = []
         return j
     except Exception as e:
         print("inbox.json 读取失败，重建：%s" % e, file=sys.stderr)
-        return {"version": 1, "updatedAt": "", "items": []}
+        return {"version": 1, "updatedAt": "", "items": [], "seen": []}
 
 
 def fetch_messages():
@@ -90,7 +92,10 @@ def fetch_messages():
 
 def main():
     inbox = load_inbox()
-    seen = {it.get("nid") for it in inbox["items"] if it.get("nid")}
+    # 去重靠 seen（永久保留），不靠 items —— items 会被 MAX_ITEMS 截断，
+    # 早先的 id 一旦掉出 items 就会被重新收进来（这个 bug 实际发生过）。
+    seen = set(inbox.get("seen") or [])
+    seen |= {it.get("nid") for it in inbox["items"] if it.get("nid")}
     incoming = fetch_messages()
 
     added = 0
@@ -113,6 +118,9 @@ def main():
     inbox["items"].sort(key=lambda it: it.get("ts") or it.get("recvAt") or 0)
     if len(inbox["items"]) > MAX_ITEMS:
         inbox["items"] = inbox["items"][-MAX_ITEMS:]
+
+    # seen 也要封顶，否则长期会无限增长（2000 个 id ≈ 30KB，够用）
+    inbox["seen"] = list(seen)[-2000:]
 
     by_kind = {}
     for it in inbox["items"]:
