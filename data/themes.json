@@ -80,6 +80,115 @@
         "浅色",
         "直角"
       ]
+    },
+    {
+      "id": "dev.localmind.theme.nekoha",
+      "name": "猫羽雫",
+      "author": "LocalMind",
+      "description": "暗夜二次元：猫耳少女壁纸、磨砂玻璃气泡、悬浮胶囊底栏。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/nekoha.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/nekoha.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/nekoha.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/nekoha.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/nekoha.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/nekoha.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/nekoha.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/nekoha.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/nekoha.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/nekoha.png"
+      ],
+      "sizeBytes": 1484675,
+      "tags": [
+        "二次元",
+        "暗色",
+        "壁纸",
+        "磨砂"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.frost",
+      "name": "雾霜",
+      "author": "LocalMind",
+      "description": "浅色磨砂：半透明白气泡、毛玻璃卡片、圆点指示器。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/frost.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/frost.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/frost.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/frost.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/frost.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/frost.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/frost.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/frost.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/frost.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/frost.png"
+      ],
+      "sizeBytes": 6610,
+      "tags": [
+        "浅色",
+        "磨砂",
+        "极简"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.cyber",
+      "name": "赛博霓虹",
+      "author": "LocalMind",
+      "description": "黑底霓虹：品红强调、青绿描边、等宽字体、直角底栏。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cyber.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cyber.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cyber.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/cyber.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/cyber.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cyber.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cyber.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cyber.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/cyber.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/cyber.png"
+      ],
+      "sizeBytes": 4730,
+      "tags": [
+        "暗色",
+        "直角",
+        "高对比"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.cream",
+      "name": "奶油手账",
+      "author": "LocalMind",
+      "description": "暖米色纸感：衬线字体、带尾巴气泡、圆形指示器。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cream.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cream.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/cream.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/cream.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/cream.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cream.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cream.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/cream.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/cream.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/cream.png"
+      ],
+      "sizeBytes": 5930,
+      "tags": [
+        "浅色",
+        "暖色",
+        "纸质"
+      ]
     }
   ]
 }
