@@ -1,8 +1,19 @@
 {
-  "updatedAt": "2026-11-14T15:05:52Z",
-  "devices": 0,
-  "activeToday": 0,
-  "versions": [],
+  "updatedAt": "2026-11-14T18:24:25Z",
+  "devices": 2,
+  "activeToday": 2,
+  "versions": [
+    {
+      "versionCode": 10010,
+      "version": "1.0.10",
+      "devices": 1
+    },
+    {
+      "versionCode": 10008,
+      "version": "1.0.8",
+      "devices": 2
+    }
+  ],
   "dailyActive": [
     {
       "date": "2026-11-01",
@@ -58,7 +69,7 @@
     },
     {
       "date": "2026-11-14",
-      "devices": 0
+      "devices": 2
     }
   ],
   "announcements": [
@@ -66,23 +77,120 @@
       "id": "2026-11-14-welcome",
       "title": "欢迎使用 LocalMind",
       "publishedAt": "2026-11-14",
-      "reads": 0
+      "reads": 2
     }
   ],
   "stable": {
-    "version": "1.0.8",
-    "versionCode": 10008
+    "version": "1.0.10",
+    "versionCode": 10010
   },
   "beta": {
-    "version": "1.1.0-beta1",
-    "versionCode": 10100
+    "version": "1.1.0-beta3",
+    "versionCode": 10103
   },
   "inbox": {
     "version": 1,
-    "updatedAt": "",
-    "items": [],
+    "updatedAt": "2026-11-14T18:24:25Z",
+    "items": [
+      {
+        "model": "Xiaomi 24031PN0DC",
+        "brand": "Xiaomi",
+        "android": "16",
+        "sdk": 36,
+        "ramMb": 15167,
+        "cpu": "SM8650",
+        "cores": 8,
+        "abi": "arm64-v8a",
+        "screen": "1440x3200",
+        "versionName": "1.0.8",
+        "versionCode": 10008,
+        "channel": "stable",
+        "kind": "device",
+        "id": "0766143d06694855",
+        "ts": 1794668916816,
+        "nid": "1ew8mYvqoveW",
+        "recvAt": 1794668920
+      },
+      {
+        "model": "vivo V2531A",
+        "brand": "vivo",
+        "android": "16",
+        "sdk": 36,
+        "ramMb": 11502,
+        "cpu": "SM4450",
+        "cores": 8,
+        "abi": "arm64-v8a",
+        "screen": "720x1570",
+        "versionName": "1.0.8",
+        "versionCode": 10008,
+        "channel": "stable",
+        "kind": "device",
+        "id": "0071cfa441954ce5",
+        "ts": 1794671168813,
+        "nid": "sfIvOEim6W2k",
+        "recvAt": 1794671170
+      },
+      {
+        "action": "reject",
+        "from": "1.0.8",
+        "to": "1.1.0-beta1",
+        "channel": "beta",
+        "kind": "update",
+        "id": "0766143d06694855",
+        "ts": 1794671304179,
+        "nid": "jl8g2eOi1xOs",
+        "recvAt": 1794671311
+      },
+      {
+        "action": "accept",
+        "from": "1.0.8",
+        "to": "1.0.10",
+        "channel": "stable",
+        "kind": "update",
+        "id": "0766143d06694855",
+        "ts": 1794677432191,
+        "nid": "NobcgKT4rPmJ",
+        "recvAt": 1794677434
+      },
+      {
+        "action": "reject",
+        "from": "1.0.8",
+        "to": "1.0.10",
+        "channel": "stable",
+        "kind": "update",
+        "id": "0766143d06694855",
+        "ts": 1794677490662,
+        "nid": "8vgZQzWsUddX",
+        "recvAt": 1794677491
+      },
+      {
+        "model": "Xiaomi 24031PN0DC",
+        "brand": "Xiaomi",
+        "android": "16",
+        "sdk": 36,
+        "ramMb": 15167,
+        "cpu": "SM8650",
+        "cores": 8,
+        "abi": "arm64-v8a",
+        "screen": "1440x3200",
+        "versionName": "1.0.10",
+        "versionCode": 10010,
+        "channel": "stable",
+        "kind": "device",
+        "id": "0766143d06694855",
+        "ts": 1794679251047,
+        "nid": "7lGMk9SPufGn",
+        "recvAt": 1794679252
+      }
+    ],
     "seen": [
-      "A0nvWW41ePYV"
+      "sfIvOEim6W2k",
+      "NobcgKT4rPmJ",
+      "8vgZQzWsUddX",
+      "1ew8mYvqoveW",
+      "A0nvWW41ePYV",
+      "jl8g2eOi1xOs",
+      "7lGMk9SPufGn"
     ]
   }
 }
