@@ -131,6 +131,17 @@ def main():
         },
     }
 
+    # 收件箱（设备画像 / 崩溃 / 留言 / 更新反馈）
+    #
+    # 由 collect_inbox.py 从 ntfy 主题拉到 data/inbox.json，这里顺手并进 stats.json：
+    # 现有 workflow 只提交 data/stats.json，这样不用改 workflow 文件就能让它上线。
+    try:
+        import collect_inbox
+        collect_inbox.main()
+    except Exception as e:
+        print("收件箱收集失败（不影响计数统计）：%s" % e, file=sys.stderr)
+    stats["inbox"] = read_json("inbox.json", {"version": 1, "updatedAt": "", "items": []})
+
     out = os.path.join(DATA, "stats.json")
     with open(out, "w", encoding="utf-8") as f:
         json.dump(stats, f, ensure_ascii=False, indent=2)
