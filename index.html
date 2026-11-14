@@ -570,12 +570,18 @@ async function saveAnnounce() {
 }
 
 /* ---------- 版本下发 ---------- */
-async function fetchLatestRelease() {
+async function fetchLatestRelease(retried) {
   try {
     const r = await fetch('https://api.github.com/repos/' + CODE_REPO + '/releases/latest', { headers: headers() });
     if (r.status === 401) {
       localStorage.removeItem(LS_PAT);
+      if (askToken('Token 已失效或过期（401），LocalMind-Android 是私有仓库，必须用有效 Token 读取 Release')) return fetchLatestRelease(true);
       throw new Error('Token 已失效或过期（401），请点击右上角「换 Token」重新输入');
+    }
+    if ((r.status === 404 || r.status === 403) && !retried) {
+      // 私有仓库匿名/无权限访问会 404 或 403，自动弹窗要 Token 后重试一次
+      if (askToken('LocalMind-Android 是私有仓库，读取它的 Release 需要 Token（Repository access 请包含 ' + CODE_REPO + '，或直接用全权限 Token）')) return fetchLatestRelease(true);
+      throw new Error('HTTP ' + r.status + '（私有仓库需要 Token 同时授权 ' + CODE_REPO + ' 的 Contents 读取）');
     }
     if (!r.ok) throw new Error('HTTP ' + r.status + '（私有仓库需要 Token 同时授权 ' + CODE_REPO + ' 的 Contents 读取）');
     const j = await r.json();
