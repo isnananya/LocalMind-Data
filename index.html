@@ -198,6 +198,7 @@
       <button class="tab active" data-tab="donors" onclick="switchTab('donors')">捐献榜</button>
       <button class="tab" data-tab="announce" onclick="switchTab('announce')">公告</button>
       <button class="tab" data-tab="release" onclick="switchTab('release')">版本下发</button>
+      <button class="tab" data-tab="stats" onclick="switchTab('stats')">数据</button>
     </div>
 
     <!-- ====== 捐献榜 ====== -->
@@ -235,7 +236,12 @@
     <div class="panel" id="panel-release">
       <div class="card">
         <h3>版本下发</h3>
-        <div class="desc">App 启动时对比 versionCode，高于当前版本则提示更新</div>
+        <div class="desc">App 启动时对比 versionCode，高于当前版本则提示更新；每 60 秒也会重查一次</div>
+        <div class="tabs" style="margin-bottom:14px">
+          <button class="tab active" id="ch-stable" onclick="setChannel('stable')">稳定版</button>
+          <button class="tab" id="ch-beta" onclick="setChannel('beta')">测试版</button>
+        </div>
+        <div class="hint" id="ch-hint" style="margin-bottom:12px">稳定版通道：所有用户默认收到的版本</div>
         <button class="btn btn-ghost btn-sm" style="width:100%; margin-bottom:14px" onclick="fetchLatestRelease()">从 GitHub 获取 LocalMind-Android 最新 Release</button>
         <div class="field"><label>最新版本名</label><input type="text" id="rel-version" placeholder="1.0.6"></div>
         <div class="field"><label>versionCode（整数，必须大于旧版本才会提示）</label><input type="number" id="rel-code" placeholder="10006"></div>
@@ -249,6 +255,25 @@
         <div class="field"><label>更新日志</label><textarea id="rel-changelog" rows="5" placeholder="每行一条"></textarea></div>
         <div class="field"><label>下载地址</label><input type="text" id="rel-url" placeholder="https://github.com/isnananya/LocalMind-Android/releases"></div>
         <button class="btn btn-green" style="width:100%" onclick="saveRelease()">保存并下发</button>
+      </div>
+    </div>
+
+    <!-- ====== 数据 ====== -->
+    <div class="panel" id="panel-stats">
+      <div class="card">
+        <div class="row" style="margin-bottom: 10px;">
+          <div><h3>使用统计</h3><div class="desc" id="stats-updated">加载中…</div></div>
+          <button class="btn btn-blue btn-sm shrink" onclick="loadStats()">刷新</button>
+        </div>
+        <div id="stats-body"><div class="hint">加载中…</div></div>
+      </div>
+      <div class="card">
+        <h3>统计说明</h3>
+        <div class="hint" style="line-height:1.7">
+          · App 端只上报「事件 +1」：设备数、版本分布、日活、公告已读，<b>不采集任何设备号或账号</b>；<br>
+          · 数据每 15 分钟由仓库的定时任务快照一次，看到的是最近一次快照（顶部有时间）；<br>
+          · 数字为「设备数」近似值：同一台设备同一版本/同一公告只计一次，重装会重新计。
+        </div>
       </div>
     </div>
   </div>
@@ -438,11 +463,39 @@ function setStatus(ok, text) {
 function switchTab(name) {
   document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === name));
   document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', p.id === 'panel-' + name));
+  if (name === 'stats') loadStats();
 }
 
 /* ==================== 数据 ==================== */
 let donorsData = { version: 1, updatedAt: '', list: [] };
 let editingDonor = -1;
+// 更新通道：稳定版写 release.json，测试版写 release-beta.json
+let relChannel = 'stable';
+function releaseFileName() { return relChannel === 'beta' ? 'release-beta.json' : 'release.json'; }
+
+async function setChannel(ch) {
+  relChannel = ch === 'beta' ? 'beta' : 'stable';
+  document.getElementById('ch-stable').classList.toggle('active', relChannel === 'stable');
+  document.getElementById('ch-beta').classList.toggle('active', relChannel === 'beta');
+  document.getElementById('ch-hint').textContent = relChannel === 'stable'
+    ? '稳定版通道：所有用户默认收到的版本'
+    : '测试版通道：只有把「更多 → 更新通道」切到测试版的用户会收到';
+  await loadRelease();
+}
+
+async function loadRelease() {
+  try {
+    const rel = await readData(releaseFileName());
+    document.getElementById('rel-version').value = rel.latestVersion || '';
+    document.getElementById('rel-code').value = rel.versionCode || '';
+    document.getElementById('rel-force').checked = !!rel.forceUpdate;
+    document.getElementById('rel-changelog').value = rel.changelog || '';
+    document.getElementById('rel-url').value = rel.downloadUrl || '';
+  } catch (e) {
+    ['rel-version', 'rel-code', 'rel-changelog', 'rel-url'].forEach(id => document.getElementById(id).value = '');
+    document.getElementById('rel-force').checked = false;
+  }
+}
 
 async function loadAll() {
   try {
@@ -458,14 +511,7 @@ async function loadAll() {
     document.getElementById('ann-date').value = ann.publishedAt || '';
     document.getElementById('ann-id').value = ann.id || '';
   } catch (e) {}
-  try {
-    const rel = await readData('release.json');
-    document.getElementById('rel-version').value = rel.latestVersion || '';
-    document.getElementById('rel-code').value = rel.versionCode || '';
-    document.getElementById('rel-force').checked = !!rel.forceUpdate;
-    document.getElementById('rel-changelog').value = rel.changelog || '';
-    document.getElementById('rel-url').value = rel.downloadUrl || '';
-  } catch (e) {}
+  await loadRelease();
 }
 
 /* ---------- 捐献榜 ---------- */
@@ -567,6 +613,21 @@ async function saveAnnounce() {
   };
   if (obj.enabled && (!obj.title || !obj.content)) { toast('启用公告时必须填写标题和内容', 'fail'); return; }
   await doSave('announcement.json', obj, 'announce: ' + (obj.enabled ? '发布' : '下线') + '「' + obj.title + '」');
+  // 顺手登记公告 key：统计任务靠这份清单去读「有多少设备读过」
+  if (obj.enabled) await rememberAnnouncementKey(obj);
+}
+
+async function rememberAnnouncementKey(ann) {
+  try {
+    let list = [];
+    try { list = await readData('ann-keys.json'); } catch (e) { list = []; }
+    if (!Array.isArray(list)) list = [];
+    const next = list.filter(x => (x && x.id) !== ann.id);
+    next.unshift({ id: ann.id, title: ann.title, publishedAt: ann.publishedAt });
+    await ghPutFile('ann-keys.json', next, 'stats: 登记公告 key ' + ann.id);
+  } catch (e) {
+    toast('公告已发，但统计登记失败：' + e.message, 'fail');
+  }
 }
 
 /* ---------- 版本下发 ---------- */
@@ -575,24 +636,26 @@ async function fetchLatestRelease(retried) {
     const r = await fetch('https://api.github.com/repos/' + CODE_REPO + '/releases/latest', { headers: headers() });
     if (r.status === 401) {
       localStorage.removeItem(LS_PAT);
-      if (askToken('Token 已失效或过期（401），LocalMind-Android 是私有仓库，必须用有效 Token 读取 Release')) return fetchLatestRelease(true);
+      if (askToken('Token 已失效或过期（401），请重新输入一个可读取 ' + CODE_REPO + ' 的 Token')) return fetchLatestRelease(true);
       throw new Error('Token 已失效或过期（401），请点击右上角「换 Token」重新输入');
     }
-    if ((r.status === 404 || r.status === 403) && !retried) {
-      // 私有仓库匿名/无权限访问会 404 或 403，自动弹窗要 Token 后重试一次
-      if (askToken('LocalMind-Android 是私有仓库，读取它的 Release 需要 Token（Repository access 请包含 ' + CODE_REPO + '，或直接用全权限 Token）')) return fetchLatestRelease(true);
-      throw new Error('HTTP ' + r.status + '（私有仓库需要 Token 同时授权 ' + CODE_REPO + ' 的 Contents 读取）');
+    if (r.status === 404 && !retried) {
+      // 仓库公开但没有 Release，或 Token 无权限；先要一次 Token 再试
+      if (askToken(CODE_REPO + ' 读不到最新 Release（HTTP 404）。如果仓库已公开，通常是还没有发布过 Release；也可以换一个有权限的 Token 再试')) return fetchLatestRelease(true);
+      throw new Error('仓库里还没有 Release：请先在 GitHub 上发布一个 Release（打 tag 并上传 APK），或直接手动填写版本号');
     }
-    if (!r.ok) throw new Error('HTTP ' + r.status + '（私有仓库需要 Token 同时授权 ' + CODE_REPO + ' 的 Contents 读取）');
+    if (!r.ok) throw new Error('HTTP ' + r.status);
     const j = await r.json();
     const tag = (j.tag_name || '').replace(/^v/, '');
     document.getElementById('rel-version').value = tag;
     document.getElementById('rel-changelog').value = (j.body || '').trim();
-    document.getElementById('rel-url').value = j.html_url || '';
+    // 优先用 Release 里的 APK 直链，App 点「去更新」能直接下载安装包
+    const apk = (j.assets || []).find(a => /\.apk$/i.test(a.name || ''));
+    document.getElementById('rel-url').value = apk ? apk.browser_download_url : (j.html_url || '');
     const m = tag.match(/(\d+)\.(\d+)\.(\d+)/);
     if (m) document.getElementById('rel-code').value =
       (parseInt(m[1], 10) * 10000 + parseInt(m[2], 10) * 100 + parseInt(m[3], 10)).toString();
-    toast('已获取最新 Release，请确认后保存', 'ok');
+    toast('已获取 ' + tag + '，确认后保存到「' + (relChannel === 'beta' ? '测试版' : '稳定版') + '」通道', 'ok');
   } catch (e) { toast('获取失败：' + e.message, 'fail'); }
 }
 async function saveRelease() {
@@ -605,7 +668,94 @@ async function saveRelease() {
     publishedAt: today(),
   };
   if (!obj.latestVersion || !obj.versionCode) { toast('请填写版本名和 versionCode', 'fail'); return; }
-  await doSave('release.json', obj, 'release: 下发 v' + obj.latestVersion + '(' + obj.versionCode + ')');
+  await doSave(releaseFileName(), obj,
+    'release(' + relChannel + '): 下发 v' + obj.latestVersion + '(' + obj.versionCode + ')');
+}
+
+/* ---------- 数据统计 ---------- */
+async function loadStats() {
+  const body = document.getElementById('stats-body');
+  const stamp = document.getElementById('stats-updated');
+  try {
+    const s = await readData('stats.json');
+    stamp.textContent = '快照时间 ' + (s.updatedAt || '未知') + '（每 15 分钟更新）';
+    body.innerHTML = renderStats(s);
+  } catch (e) {
+    stamp.textContent = '读取失败';
+    body.innerHTML = '<div class="hint">还没有统计数据：等 App 上报 + 定时任务跑过一轮后就会有。' +
+      '<br>（' + esc(e.message) + '）</div>';
+  }
+}
+
+function renderStats(s) {
+  const devices = s.devices || 0;
+  const active = s.activeToday || 0;
+  const bar = (pct, color) =>
+    '<div style="height:6px;border-radius:99px;background:rgba(120,120,128,.16);overflow:hidden;margin-top:6px">' +
+    '<div style="height:6px;width:' + Math.max(2, Math.min(100, pct)) + '%;background:' + color + ';border-radius:99px"></div></div>';
+
+  let html = '<div class="row" style="gap:10px;margin-bottom:16px">' +
+    '<div style="flex:1;background:rgba(255,45,85,.10);border-radius:12px;padding:12px">' +
+    '<div style="font-size:12px;color:var(--secondary)">累计设备</div>' +
+    '<div style="font-size:24px;font-weight:700;color:var(--pink)">' + devices + '</div></div>' +
+    '<div style="flex:1;background:rgba(52,199,89,.12);border-radius:12px;padding:12px">' +
+    '<div style="font-size:12px;color:var(--secondary)">今日活跃</div>' +
+    '<div style="font-size:24px;font-weight:700;color:var(--green)">' + active + '</div></div>' +
+    '</div>';
+
+  // 版本分布
+  const versions = s.versions || [];
+  html += '<div style="font-weight:600;margin:6px 0 8px">版本分布</div>';
+  if (!versions.length) {
+    html += '<div class="hint">还没有版本数据（新版 App 上报后出现）</div>';
+  } else {
+    const total = versions.reduce((a, v) => a + (v.devices || 0), 0) || 1;
+    html += versions.map(v => {
+      const n = v.devices || 0;
+      const pct = Math.round(n * 100 / total);
+      const cur = (s.stable && s.stable.versionCode === v.versionCode) ? ' · 稳定版' :
+        ((s.beta && s.beta.versionCode === v.versionCode) ? ' · 测试版' : '');
+      return '<div style="padding:8px 0">' +
+        '<div style="display:flex;justify-content:space-between;font-size:14px">' +
+        '<span>v' + esc(v.version || v.versionCode) + '<span style="color:var(--secondary);font-size:12px">' + cur + '</span></span>' +
+        '<span style="font-weight:600">' + n + ' 人 · ' + pct + '%</span></div>' +
+        bar(pct, '#0a84ff') + '</div>';
+    }).join('');
+  }
+
+  // 日活趋势（近 14 天，纯 CSS 柱状）
+  const daily = s.dailyActive || [];
+  if (daily.length) {
+    const max = Math.max(1, ...daily.map(d => d.devices || 0));
+    html += '<div style="font-weight:600;margin:18px 0 8px">近 14 天活跃</div>' +
+      '<div style="display:flex;align-items:flex-end;gap:4px;height:76px">' +
+      daily.map(d => {
+        const h = Math.round((d.devices || 0) * 64 / max);
+        return '<div title="' + d.date + '：' + (d.devices || 0) + ' 台" style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center">' +
+          '<div style="width:100%;height:' + Math.max(2, h) + 'px;background:linear-gradient(180deg,#ff6482,#ff2d55);border-radius:3px"></div>' +
+          '</div>';
+      }).join('') + '</div>' +
+      '<div class="hint" style="margin-top:6px">最左 14 天前 · 最右 今天（UTC）</div>';
+  }
+
+  // 公告已读
+  const anns = s.announcements || [];
+  html += '<div style="font-weight:600;margin:18px 0 8px">公告已读</div>';
+  if (!anns.length) {
+    html += '<div class="hint">还没有公告统计</div>';
+  } else {
+    html += anns.map(a => {
+      const n = a.reads || 0;
+      const pct = devices ? Math.round(n * 100 / devices) : 0;
+      return '<div style="padding:8px 0;border-bottom:1px solid var(--sep)">' +
+        '<div style="display:flex;justify-content:space-between;font-size:14px">' +
+        '<span>' + esc(a.title || a.id) + '</span>' +
+        '<span style="font-weight:600;color:var(--green)">' + n + ' 人已读</span></div>' +
+        '<div class="hint">' + esc(a.publishedAt || '') + ' · 占设备数 ' + pct + '%</div>' +
+        bar(pct, '#34c759') + '</div>';
+    }).join('');
+  }
+  return html;
 }
 
 /* ---------- 公共 ---------- */

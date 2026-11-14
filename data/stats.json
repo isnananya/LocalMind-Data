@@ -1,0 +1,80 @@
+{
+  "updatedAt": "2026-11-14T12:22:21Z",
+  "devices": 0,
+  "activeToday": 0,
+  "versions": [],
+  "dailyActive": [
+    {
+      "date": "2026-11-01",
+      "devices": 0
+    },
+    {
+      "date": "2026-11-02",
+      "devices": 0
+    },
+    {
+      "date": "2026-11-03",
+      "devices": 0
+    },
+    {
+      "date": "2026-11-04",
+      "devices": 0
+    },
+    {
+      "date": "2026-11-05",
+      "devices": 0
+    },
+    {
+      "date": "2026-11-06",
+      "devices": 0
+    },
+    {
+      "date": "2026-11-07",
+      "devices": 0
+    },
+    {
+      "date": "2026-11-08",
+      "devices": 0
+    },
+    {
+      "date": "2026-11-09",
+      "devices": 0
+    },
+    {
+      "date": "2026-11-10",
+      "devices": 0
+    },
+    {
+      "date": "2026-11-11",
+      "devices": 0
+    },
+    {
+      "date": "2026-11-12",
+      "devices": 0
+    },
+    {
+      "date": "2026-11-13",
+      "devices": 0
+    },
+    {
+      "date": "2026-11-14",
+      "devices": 0
+    }
+  ],
+  "announcements": [
+    {
+      "id": "2026-11-14-welcome",
+      "title": "欢迎使用 LocalMind",
+      "publishedAt": "2026-11-14",
+      "reads": 0
+    }
+  ],
+  "stable": {
+    "version": "1.0.6",
+    "versionCode": 10006
+  },
+  "beta": {
+    "version": "",
+    "versionCode": 0
+  }
+}

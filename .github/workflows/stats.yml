@@ -1,0 +1,38 @@
+name: stats-snapshot
+
+# 站点是纯静态的 GitHub Pages，没有服务端可以查询统计。
+# App 端只做「事件 +1」（公开计数器服务），这里每 15 分钟把计数器读出来，
+# 拍成 data/stats.json 提交进仓库 —— 后台页面同源读取，不需要跨域代理。
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats-snapshot
+  cancel-in-progress: true
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Collect counters
+        run: python3 tools/collect_stats.py
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "localmind-stats-bot"
+          git config user.email "stats-bot@users.noreply.github.com"
+          git add data/stats.json
+          if git diff --cached --quiet; then
+            echo "统计没有变化，跳过提交"
+          else
+            git commit -m "stats: 快照 $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
