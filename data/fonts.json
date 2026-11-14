@@ -1,0 +1,708 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-14",
+  "fonts": [
+    {
+      "id": "font-naiyou-paopao",
+      "name": "奶油泡泡",
+      "author": "本地字体库",
+      "style": "可爱圆体",
+      "description": "圆滚滚的奶油字，配粉色主题刚好",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-naiyou-paopao.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-naiyou-paopao.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-naiyou-paopao.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-naiyou-paopao.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-naiyou-paopao.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-naiyou-paopao.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-naiyou-paopao.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-naiyou-paopao.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-naiyou-paopao.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-naiyou-paopao.png"
+      ],
+      "sizeBytes": 2830900,
+      "tags": [
+        "可爱",
+        "圆体",
+        "软萌"
+      ]
+    },
+    {
+      "id": "font-yegenyou-yuanqu",
+      "name": "叶根友圆趣卡通",
+      "author": "本地字体库",
+      "style": "卡通圆体",
+      "description": "圆趣卡通，标题和气泡都很活泼",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-yegenyou-yuanqu.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-yegenyou-yuanqu.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-yegenyou-yuanqu.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-yegenyou-yuanqu.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-yegenyou-yuanqu.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-yegenyou-yuanqu.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-yegenyou-yuanqu.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-yegenyou-yuanqu.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-yegenyou-yuanqu.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-yegenyou-yuanqu.png"
+      ],
+      "sizeBytes": 2093540,
+      "tags": [
+        "卡通",
+        "圆体"
+      ]
+    },
+    {
+      "id": "font-hanyi-pp",
+      "name": "汉仪 PP 体",
+      "author": "本地字体库",
+      "style": "圆润可爱",
+      "description": "笔画软、字面小，长段落也不累",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-hanyi-pp.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-hanyi-pp.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-hanyi-pp.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-hanyi-pp.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-hanyi-pp.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-hanyi-pp.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-hanyi-pp.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-hanyi-pp.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-hanyi-pp.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-hanyi-pp.png"
+      ],
+      "sizeBytes": 2835832,
+      "tags": [
+        "可爱",
+        "圆体",
+        "正文"
+      ]
+    },
+    {
+      "id": "font-minijian-zhunyuan",
+      "name": "迷你简准圆",
+      "author": "本地字体库",
+      "style": "圆体",
+      "description": "最稳的圆体之一，正文可用",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-minijian-zhunyuan.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-minijian-zhunyuan.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-minijian-zhunyuan.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-minijian-zhunyuan.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-minijian-zhunyuan.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-minijian-zhunyuan.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-minijian-zhunyuan.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-minijian-zhunyuan.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-minijian-zhunyuan.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-minijian-zhunyuan.png"
+      ],
+      "sizeBytes": 2543360,
+      "tags": [
+        "圆体",
+        "正文"
+      ]
+    },
+    {
+      "id": "font-zhuzi-tongyan",
+      "name": "铸字精舍童颜",
+      "author": "本地字体库",
+      "style": "童趣手写",
+      "description": "小朋友的字，聊天很有元气",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-zhuzi-tongyan.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-zhuzi-tongyan.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-zhuzi-tongyan.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-zhuzi-tongyan.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-zhuzi-tongyan.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-zhuzi-tongyan.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-zhuzi-tongyan.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-zhuzi-tongyan.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-zhuzi-tongyan.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-zhuzi-tongyan.png"
+      ],
+      "sizeBytes": 1709432,
+      "tags": [
+        "童趣",
+        "手写"
+      ]
+    },
+    {
+      "id": "font-fangzheng-shaoer",
+      "name": "方正少儿",
+      "author": "本地字体库",
+      "style": "少儿卡通",
+      "description": "少儿读物那种圆头圆脑",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-fangzheng-shaoer.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-fangzheng-shaoer.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-fangzheng-shaoer.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-fangzheng-shaoer.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-fangzheng-shaoer.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-fangzheng-shaoer.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-fangzheng-shaoer.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-fangzheng-shaoer.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-fangzheng-shaoer.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-fangzheng-shaoer.png"
+      ],
+      "sizeBytes": 3564264,
+      "tags": [
+        "卡通",
+        "少儿"
+      ]
+    },
+    {
+      "id": "font-qingye-shouxie",
+      "name": "青叶手写",
+      "author": "本地字体库",
+      "style": "清秀手写",
+      "description": "清秀手写，日记感很强",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-qingye-shouxie.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-qingye-shouxie.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-qingye-shouxie.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-qingye-shouxie.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-qingye-shouxie.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-qingye-shouxie.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-qingye-shouxie.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-qingye-shouxie.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-qingye-shouxie.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-qingye-shouxie.png"
+      ],
+      "sizeBytes": 3031176,
+      "tags": [
+        "手写",
+        "文艺"
+      ]
+    },
+    {
+      "id": "font-piaoliang-shouxie",
+      "name": "漂亮手写",
+      "author": "本地字体库",
+      "style": "洒脱手写",
+      "description": "连笔洒脱，适合当标题",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-piaoliang-shouxie.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-piaoliang-shouxie.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-piaoliang-shouxie.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-piaoliang-shouxie.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-piaoliang-shouxie.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-piaoliang-shouxie.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-piaoliang-shouxie.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-piaoliang-shouxie.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-piaoliang-shouxie.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-piaoliang-shouxie.png"
+      ],
+      "sizeBytes": 2419152,
+      "tags": [
+        "手写",
+        "随性"
+      ]
+    },
+    {
+      "id": "font-gaoyanzhi-shouxie",
+      "name": "高颜值手写",
+      "author": "本地字体库",
+      "style": "网红手写",
+      "description": "社交平台常见的手写风",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-gaoyanzhi-shouxie.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-gaoyanzhi-shouxie.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-gaoyanzhi-shouxie.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-gaoyanzhi-shouxie.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-gaoyanzhi-shouxie.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-gaoyanzhi-shouxie.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-gaoyanzhi-shouxie.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-gaoyanzhi-shouxie.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-gaoyanzhi-shouxie.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-gaoyanzhi-shouxie.png"
+      ],
+      "sizeBytes": 2419152,
+      "tags": [
+        "手写",
+        "流行"
+      ]
+    },
+    {
+      "id": "font-woyi-qingchen",
+      "name": "我逸清晨",
+      "author": "本地字体库",
+      "style": "文艺细体",
+      "description": "细长清透，适合浅色主题",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-woyi-qingchen.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-woyi-qingchen.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-woyi-qingchen.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-woyi-qingchen.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-woyi-qingchen.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-woyi-qingchen.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-woyi-qingchen.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-woyi-qingchen.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-woyi-qingchen.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-woyi-qingchen.png"
+      ],
+      "sizeBytes": 2608452,
+      "tags": [
+        "文艺",
+        "细体"
+      ]
+    },
+    {
+      "id": "font-muyao-ruanbi",
+      "name": "沐瑶软笔",
+      "author": "本地字体库",
+      "style": "软笔书法",
+      "description": "软笔味道，古风主题的常客",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-muyao-ruanbi.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-muyao-ruanbi.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-muyao-ruanbi.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-muyao-ruanbi.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-muyao-ruanbi.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-muyao-ruanbi.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-muyao-ruanbi.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-muyao-ruanbi.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-muyao-ruanbi.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-muyao-ruanbi.png"
+      ],
+      "sizeBytes": 4673412,
+      "tags": [
+        "书法",
+        "软笔"
+      ]
+    },
+    {
+      "id": "font-hanyi-chaocuhei",
+      "name": "汉仪超粗黑",
+      "author": "本地字体库",
+      "style": "超粗标题",
+      "description": "极粗黑体，标题一压就有气势",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-hanyi-chaocuhei.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-hanyi-chaocuhei.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-hanyi-chaocuhei.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-hanyi-chaocuhei.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-hanyi-chaocuhei.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-hanyi-chaocuhei.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-hanyi-chaocuhei.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-hanyi-chaocuhei.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-hanyi-chaocuhei.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-hanyi-chaocuhei.png"
+      ],
+      "sizeBytes": 2915432,
+      "tags": [
+        "标题",
+        "粗黑"
+      ]
+    },
+    {
+      "id": "font-tengxiang-jinzhuan",
+      "name": "腾祥金砖黑",
+      "author": "本地字体库",
+      "style": "现代黑体",
+      "description": "方正文雅的黑体，通用",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-tengxiang-jinzhuan.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-tengxiang-jinzhuan.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-tengxiang-jinzhuan.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-tengxiang-jinzhuan.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-tengxiang-jinzhuan.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-tengxiang-jinzhuan.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-tengxiang-jinzhuan.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-tengxiang-jinzhuan.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-tengxiang-jinzhuan.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-tengxiang-jinzhuan.png"
+      ],
+      "sizeBytes": 3187708,
+      "tags": [
+        "黑体",
+        "正文"
+      ]
+    },
+    {
+      "id": "font-zhanku-kuaile",
+      "name": "站酷快乐",
+      "author": "本地字体库",
+      "style": "活泼标题",
+      "description": "站酷出品的快乐体，做封面很常用",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-zhanku-kuaile.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-zhanku-kuaile.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-zhanku-kuaile.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-zhanku-kuaile.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-zhanku-kuaile.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-zhanku-kuaile.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-zhanku-kuaile.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-zhanku-kuaile.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-zhanku-kuaile.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-zhanku-kuaile.png"
+      ],
+      "sizeBytes": 5582444,
+      "tags": [
+        "标题",
+        "活泼"
+      ]
+    },
+    {
+      "id": "font-mengna-manhua",
+      "name": "蒙纳简漫画",
+      "author": "本地字体库",
+      "style": "漫画手写",
+      "description": "漫画对话框里的那种字",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-mengna-manhua.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-mengna-manhua.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-mengna-manhua.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-mengna-manhua.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-mengna-manhua.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-mengna-manhua.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-mengna-manhua.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-mengna-manhua.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-mengna-manhua.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-mengna-manhua.png"
+      ],
+      "sizeBytes": 3431012,
+      "tags": [
+        "漫画",
+        "手写"
+      ]
+    },
+    {
+      "id": "font-chenjishi-guaiguai",
+      "name": "陈继世怪怪",
+      "author": "本地字体库",
+      "style": "怪趣手绘",
+      "description": "歪歪扭扭的怪怪体，很有个性",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-chenjishi-guaiguai.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-chenjishi-guaiguai.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-chenjishi-guaiguai.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-chenjishi-guaiguai.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-chenjishi-guaiguai.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-chenjishi-guaiguai.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-chenjishi-guaiguai.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-chenjishi-guaiguai.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-chenjishi-guaiguai.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-chenjishi-guaiguai.png"
+      ],
+      "sizeBytes": 4074760,
+      "tags": [
+        "手绘",
+        "搞怪"
+      ]
+    },
+    {
+      "id": "font-suxinshi-luanshi",
+      "name": "苏新诗卵石",
+      "author": "本地字体库",
+      "style": "圆润衬线",
+      "description": "卵石一样圆润的衬线",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-suxinshi-luanshi.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-suxinshi-luanshi.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-suxinshi-luanshi.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-suxinshi-luanshi.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-suxinshi-luanshi.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-suxinshi-luanshi.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-suxinshi-luanshi.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-suxinshi-luanshi.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-suxinshi-luanshi.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-suxinshi-luanshi.png"
+      ],
+      "sizeBytes": 1843260,
+      "tags": [
+        "衬线",
+        "圆润"
+      ]
+    },
+    {
+      "id": "font-baizhou-tianzhen",
+      "name": "白舟天真书体",
+      "author": "本地字体库",
+      "style": "日系手写",
+      "description": "日系天真书体，二次元常用",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-baizhou-tianzhen.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-baizhou-tianzhen.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-baizhou-tianzhen.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-baizhou-tianzhen.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-baizhou-tianzhen.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-baizhou-tianzhen.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-baizhou-tianzhen.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-baizhou-tianzhen.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-baizhou-tianzhen.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-baizhou-tianzhen.png"
+      ],
+      "sizeBytes": 2612768,
+      "tags": [
+        "日系",
+        "手写"
+      ]
+    },
+    {
+      "id": "font-benmo-fengyue",
+      "name": "本墨锋悦",
+      "author": "本地字体库",
+      "style": "西文无衬线",
+      "description": "西文为主，做英文界面清爽",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-benmo-fengyue.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-benmo-fengyue.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-benmo-fengyue.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-benmo-fengyue.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-benmo-fengyue.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-benmo-fengyue.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-benmo-fengyue.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-benmo-fengyue.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-benmo-fengyue.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-benmo-fengyue.png"
+      ],
+      "sizeBytes": 1173616,
+      "tags": [
+        "西文",
+        "无衬线"
+      ]
+    },
+    {
+      "id": "font-iqoo-zhongcu",
+      "name": "iQOO Type 中粗",
+      "author": "本地字体库",
+      "style": "现代黑体",
+      "description": "手机系统同款，干净利落",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-iqoo-zhongcu.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-iqoo-zhongcu.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-iqoo-zhongcu.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-iqoo-zhongcu.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-iqoo-zhongcu.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-iqoo-zhongcu.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-iqoo-zhongcu.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-iqoo-zhongcu.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-iqoo-zhongcu.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-iqoo-zhongcu.png"
+      ],
+      "sizeBytes": 1780156,
+      "tags": [
+        "黑体",
+        "现代"
+      ]
+    },
+    {
+      "id": "font-juequ-ling",
+      "name": "绝区零默认",
+      "author": "本地字体库",
+      "style": "游戏感",
+      "description": "游戏 UI 那种带倾斜的粗字",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-juequ-ling.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-juequ-ling.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-juequ-ling.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-juequ-ling.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-juequ-ling.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-juequ-ling.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-juequ-ling.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-juequ-ling.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-juequ-ling.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-juequ-ling.png"
+      ],
+      "sizeBytes": 1925852,
+      "tags": [
+        "游戏",
+        "粗斜"
+      ]
+    },
+    {
+      "id": "font-zijiong",
+      "name": "字囧体",
+      "author": "本地字体库",
+      "style": "趣味方体",
+      "description": "方头方脑还带点囧，很上镜",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-zijiong.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-zijiong.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-zijiong.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-zijiong.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-zijiong.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-zijiong.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-zijiong.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-zijiong.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-zijiong.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-zijiong.png"
+      ],
+      "sizeBytes": 3040953,
+      "tags": [
+        "趣味",
+        "方体"
+      ]
+    },
+    {
+      "id": "font-jinmei-doudou",
+      "name": "金梅浪漫豆豆",
+      "author": "本地字体库",
+      "style": "豆豆圆体",
+      "description": "一颗颗小豆子的圆体",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-jinmei-doudou.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-jinmei-doudou.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-jinmei-doudou.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-jinmei-doudou.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-jinmei-doudou.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-jinmei-doudou.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-jinmei-doudou.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-jinmei-doudou.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-jinmei-doudou.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-jinmei-doudou.png"
+      ],
+      "sizeBytes": 3797680,
+      "tags": [
+        "圆体",
+        "可爱"
+      ]
+    },
+    {
+      "id": "font-duola-ameng",
+      "name": "哆啦A梦",
+      "author": "本地字体库",
+      "style": "卡通活泼",
+      "description": "圆润卡通，蓝白主题绝配",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-duola-ameng.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-duola-ameng.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-duola-ameng.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-duola-ameng.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-duola-ameng.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-duola-ameng.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-duola-ameng.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-duola-ameng.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-duola-ameng.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-duola-ameng.png"
+      ],
+      "sizeBytes": 2196140,
+      "tags": [
+        "卡通",
+        "活泼"
+      ]
+    },
+    {
+      "id": "font-qianxi-shaonian",
+      "name": "千禧少年",
+      "author": "本地字体库",
+      "style": "Y2K 复古",
+      "description": "千禧年那种锐利又圆的字",
+      "sample": "你好，世界",
+      "version": "1.0.0",
+      "fileUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-qianxi-shaonian.ttf",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-qianxi-shaonian.ttf",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/fonts/font-qianxi-shaonian.ttf",
+        "https://isnananya.github.io/LocalMind-Data/data/fonts/font-qianxi-shaonian.ttf",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/fonts/font-qianxi-shaonian.ttf"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-qianxi-shaonian.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-qianxi-shaonian.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/fonts/font-qianxi-shaonian.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/fonts/font-qianxi-shaonian.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/fonts/font-qianxi-shaonian.png"
+      ],
+      "sizeBytes": 3310868,
+      "tags": [
+        "复古",
+        "Y2K"
+      ]
+    }
+  ]
+}
