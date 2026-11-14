@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.0.10",
-  "versionCode": 10010,
+  "latestVersion": "1.0.12",
+  "versionCode": 10012,
   "forceUpdate": false,
-  "changelog": "热修：修复 1.0.10 启动即闪退（构造期访问未初始化的界面状态，报 Cannot create an instance of AppViewModel）—— 请重新下载本版 APK 覆盖安装\n修复：气泡轮廓画错了（小尾/长尾像被削掉一角、便签折角看不见、像素台阶飞出尖刺、邮票齿变波浪线）\n新增：气泡 40 款 → 49 款\n新增：磨砂玻璃 6 款（雾 / 牛奶 / 板岩 / 琥珀）\n新增：液体折射玻璃 8 款（冰 / 金 / 紫 / 夜 / 玫瑰金）\n优化：34 款纯色气泡升级为同色极轻渐变\n修复：商店气泡数量徽章与实际条数不一致\n修复：缩略图里气泡全是胶囊形状",
-  "downloadUrl": "https://github.com/isnananya/LocalMind-Android/releases/download/v1.0.10/LocalMind-1.0.10.apk",
+  "changelog": "新增：外观页改成索引式 —— 主题 / 字体 / 气泡样式 / 界面布局 四类，点进去看已下载内容，可一键应用或删除\n新增：下载自动挑源 + 多线程 —— 先并行测速选最快的加速源，再开 8 条连接分段下载，主题包与字体共用\n字体商店 25 款 → 193 款，每款样张都用该字体自己渲染\n修复：字体样张只显示 1 张（候选源里 9 个有 6 个连不上，25 张图串行等超时）\n修复：主题 / 字体 / 气泡 / 更新检查各维护一份源列表，导致\"有的能刷有的刷不出来\"\n优化：安装包 61 MB → 53 MB（内置主题包改从主题商店云端拉取）",
+  "downloadUrl": "https://github.com/isnananya/LocalMind-Android/releases/download/v1.0.12/LocalMind-1.0.12.apk",
   "publishedAt": "2026-11-15"
 }
