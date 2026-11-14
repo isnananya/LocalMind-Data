@@ -828,6 +828,151 @@
         "纸质",
         "手账"
       ]
+    },
+    {
+      "id": "dev.localmind.theme.preset-earth",
+      "name": "暖橙",
+      "author": "LocalMind",
+      "description": "琥珀主色、奶油底、大圆角",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-earth.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-earth.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-earth.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-earth.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/preset-earth.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/preset-earth.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-earth.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-earth.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-earth.png",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-earth.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/preset-earth.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/preset-earth.png"
+      ],
+      "sizeBytes": 1101,
+      "tags": [
+        "浅色",
+        "暖色",
+        "简约"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.preset-aurora",
+      "name": "极光",
+      "author": "LocalMind",
+      "description": "青紫渐变观感、深色底、小圆角",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-aurora.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-aurora.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-aurora.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-aurora.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/preset-aurora.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/preset-aurora.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-aurora.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-aurora.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-aurora.png",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-aurora.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/preset-aurora.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/preset-aurora.png"
+      ],
+      "sizeBytes": 1107,
+      "tags": [
+        "渐变",
+        "冷色",
+        "极简"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.preset-paper",
+      "name": "纸张",
+      "author": "LocalMind",
+      "description": "高对比黑白、近直角、不透明导航栏",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-paper.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-paper.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-paper.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-paper.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/preset-paper.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/preset-paper.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-paper.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-paper.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-paper.png",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-paper.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/preset-paper.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/preset-paper.png"
+      ],
+      "sizeBytes": 1157,
+      "tags": [
+        "浅色",
+        "纸质",
+        "极简"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.preset-night",
+      "name": "深海",
+      "author": "LocalMind",
+      "description": "冷蓝底、低饱和、大留白",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-night.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-night.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-night.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-night.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/preset-night.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/preset-night.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-night.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-night.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-night.png",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-night.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/preset-night.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/preset-night.png"
+      ],
+      "sizeBytes": 1072,
+      "tags": [
+        "暗色",
+        "蓝色",
+        "极简"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.preset-anime",
+      "name": "二次元",
+      "author": "LocalMind",
+      "description": "粉紫主色、大圆角、带尾巴气泡、卡片带厚度",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-anime.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-anime.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-anime.zip",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/preset-anime.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/preset-anime.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/preset-anime.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-anime.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-anime.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-anime.png",
+        "https://ghfast.top/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/preset-anime.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/preset-anime.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/preset-anime.png"
+      ],
+      "sizeBytes": 1338,
+      "tags": [
+        "二次元",
+        "浅色",
+        "甜美"
+      ]
     }
   ]
 }
