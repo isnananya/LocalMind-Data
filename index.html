@@ -746,9 +746,10 @@ async function saveRelease() {
 async function loadStats() {
   const body = document.getElementById('stats-body');
   const stamp = document.getElementById('stats-updated');
-  let s = null, inbox = { items: [] }, err = null;
+  let s = null, err = null;
   try { s = await readData('stats.json'); } catch (e) { err = e; }
-  try { inbox = await readData('inbox.json'); } catch (e) { /* 还没收到任何消息 */ }
+  // 收件箱并进 stats.json（见 tools/collect_stats.py）：不用额外读一个文件
+  const inbox = (s && s.inbox) || { items: [] };
   stamp.textContent = s
     ? '快照时间 ' + (s.updatedAt || '未知') + '（每 15 分钟更新）'
     : '读取失败';
