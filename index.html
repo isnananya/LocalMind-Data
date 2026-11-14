@@ -685,15 +685,34 @@ async function rememberAnnouncementKey(ann) {
  */
 async function fetchLatestRelease(silent) {
   try {
-    const r = await fetch('https://api.github.com/repos/' + CODE_REPO + '/releases/latest', { headers: headers() });
-    if (r.status === 404) {
-      throw new Error('这个仓库还没有 Release：先去 GitHub 发一个（打 tag 并上传 APK），或者直接手填版本号');
+    let j = null;
+    if (relChannel === 'beta') {
+      // 测试版通道：latest 接口会跳过 prerelease，必须走列表取最新一个（含预发布）
+      const rl = await fetch('https://api.github.com/repos/' + CODE_REPO + '/releases?per_page=30', { headers: headers() });
+      if (!rl.ok) throw new Error('读取 Release 列表失败 HTTP ' + rl.status);
+      const arr = await rl.json();
+      j = arr.find(x => !x.draft) || null;
+      if (!j) throw new Error('仓库里还没有任何 Release（含预发布）：先去 GitHub 发一个，或直接手填版本号');
+    } else {
+      const r = await fetch('https://api.github.com/repos/' + CODE_REPO + '/releases/latest', { headers: headers() });
+      if (r.status === 404) {
+        // 两种可能：① 一个 Release 都没有；② 只有 prerelease/草稿（latest 会跳过）。
+        // 不再傻乎乎地要 Token —— 先看列表里有没有正式版可以退而求其次。
+        const rl = await fetch('https://api.github.com/repos/' + CODE_REPO + '/releases?per_page=30', { headers: headers() });
+        const arr = rl.ok ? await rl.json() : [];
+        j = arr.find(x => !x.draft && !x.prerelease) || null;
+        if (!j) {
+          throw new Error(arr.length
+            ? '仓库里只有预发布/草稿版本（latest 接口会跳过它们）：切到「测试版通道」取，或手动填写版本号'
+            : '仓库里还没有发布过 Release：去 GitHub 打 tag 发一个（上传 APK），或手动填写版本号');
+        }
+      }
+      if (r.status === 401 || r.status === 403) {
+        throw new Error('令牌无权读取 ' + CODE_REPO + '（HTTP ' + r.status + '），点右上角「换 Token」换一个');
+      }
+      if (!r.ok && r.status !== 404) throw new Error('HTTP ' + r.status);
+      if (!j) j = await r.json();
     }
-    if (r.status === 401 || r.status === 403) {
-      throw new Error('令牌无权读取 ' + CODE_REPO + '（HTTP ' + r.status + '），点右上角「换 Token」换一个');
-    }
-    if (!r.ok) throw new Error('HTTP ' + r.status);
-    const j = await r.json();
     const tag = (j.tag_name || '').replace(/^v/, '');
     document.getElementById('rel-version').value = tag;
     document.getElementById('rel-changelog').value = (j.body || '').trim();
@@ -727,15 +746,17 @@ async function saveRelease() {
 async function loadStats() {
   const body = document.getElementById('stats-body');
   const stamp = document.getElementById('stats-updated');
-  try {
-    const s = await readData('stats.json');
-    stamp.textContent = '快照时间 ' + (s.updatedAt || '未知') + '（每 15 分钟更新）';
-    body.innerHTML = renderStats(s);
-  } catch (e) {
-    stamp.textContent = '读取失败';
-    body.innerHTML = '<div class="hint">还没有统计数据：等 App 上报 + 定时任务跑过一轮后就会有。' +
-      '<br>（' + esc(e.message) + '）</div>';
-  }
+  let s = null, inbox = { items: [] }, err = null;
+  try { s = await readData('stats.json'); } catch (e) { err = e; }
+  try { inbox = await readData('inbox.json'); } catch (e) { /* 还没收到任何消息 */ }
+  stamp.textContent = s
+    ? '快照时间 ' + (s.updatedAt || '未知') + '（每 15 分钟更新）'
+    : '读取失败';
+  const head = s
+    ? renderStats(s)
+    : '<div class="hint">还没有计数统计：等 App 上报 + 定时任务跑过一轮后就会有。' +
+      (err ? '<br>（' + esc(err.message) + '）' : '') + '</div>';
+  body.innerHTML = head + renderInbox(inbox);
 }
 
 function renderStats(s) {
@@ -806,6 +827,123 @@ function renderStats(s) {
         bar(pct, '#34c759') + '</div>';
     }).join('');
   }
+  return html;
+}
+
+/* ---------- 收件箱：设备画像 / 崩溃 / 留言 / 内测选择 ---------- */
+
+/**
+ * inbox.json 是 GitHub Actions 每 15 分钟从 ntfy 主题里收进来的。
+ * 主题是公开无鉴权的，所以这里只「展示」——不当可信数据源，也不自动做决策。
+ */
+function renderInbox(inbox) {
+  const items = (inbox && inbox.items) || [];
+  if (!items.length) {
+    return '<div style="font-weight:600;margin:22px 0 8px">用户来信</div>' +
+      '<div class="hint">还没有收到任何上报。App 首次启动后 15 分钟内会出现。</div>';
+  }
+  const byKind = k => items.filter(it => it.kind === k);
+  const devices = byKind('device');
+  const crashes = byKind('crash').slice().reverse();
+  const ideas = byKind('idea').slice().reverse();
+  const updates = byKind('update');
+
+  const when = ts => {
+    if (!ts) return '';
+    const d = new Date(ts);
+    if (isNaN(d.getTime())) return '';
+    return d.toLocaleString('zh-CN', { hour12: false });
+  };
+
+  let html = '';
+
+  // ---- 更新推送（内测接受 / 拒绝）----
+  html += '<div style="font-weight:600;margin:22px 0 8px">更新推送反馈</div>';
+  if (!updates.length) {
+    html += '<div class="hint">还没有用户对更新弹窗做出选择</div>';
+  } else {
+    const stat = {};
+    updates.forEach(u => {
+      const key = (u.channel === 'beta' ? '测试版' : '稳定版') + ' → ' + (u.to || '?');
+      stat[key] = stat[key] || { accept: 0, reject: 0 };
+      if (u.action === 'accept') stat[key].accept++; else stat[key].reject++;
+    });
+    html += Object.keys(stat).map(k => {
+      const v = stat[k], total = v.accept + v.reject || 1;
+      const pct = Math.round(v.accept * 100 / total);
+      return '<div style="padding:8px 0;border-bottom:1px solid var(--sep)">' +
+        '<div style="display:flex;justify-content:space-between;font-size:14px">' +
+        '<span>' + esc(k) + '</span>' +
+        '<span style="font-weight:600;color:var(--green)">更新 ' + v.accept + ' · 拒绝 ' + v.reject + '</span></div>' +
+        '<div class="hint">接受率 ' + pct + '%（' + total + ' 人响应）</div></div>';
+    }).join('');
+  }
+
+  // ---- 机型分布 ----
+  html += '<div style="font-weight:600;margin:22px 0 8px">用户设备（' + devices.length + ' 台）</div>';
+  if (!devices.length) {
+    html += '<div class="hint">还没有设备上报</div>';
+  } else {
+    // 同一台设备同一版本只算一条；按最近上报时间倒序
+    const seen = new Set();
+    const uniq = [];
+    devices.slice().reverse().forEach(d => {
+      const key = (d.id || '') + '@' + (d.versionCode || '');
+      if (seen.has(key)) return;
+      seen.add(key);
+      uniq.push(d);
+    });
+    html += '<div style="max-height:340px;overflow:auto;border:1px solid var(--sep);border-radius:12px">' +
+      '<table style="width:100%;border-collapse:collapse;font-size:13px">' +
+      '<thead><tr style="background:rgba(120,120,128,.08);text-align:left">' +
+      '<th style="padding:8px">机型</th><th style="padding:8px">运存</th>' +
+      '<th style="padding:8px">CPU</th><th style="padding:8px">系统</th>' +
+      '<th style="padding:8px">版本</th><th style="padding:8px">时间</th></tr></thead><tbody>' +
+      uniq.map(d => '<tr style="border-top:1px solid var(--sep)">' +
+        '<td style="padding:8px">' + esc(d.model || '?') + '</td>' +
+        '<td style="padding:8px">' + (d.ramMb ? Math.round(d.ramMb / 1024) + 'G' : '?') + '</td>' +
+        '<td style="padding:8px">' + esc((d.cpu || '?') + ' · ' + (d.cores || '?') + '核') + '</td>' +
+        '<td style="padding:8px">' + esc('A' + (d.android || '?')) + '</td>' +
+        '<td style="padding:8px">' + esc((d.versionName || '?') + (d.channel === 'beta' ? ' (内测)' : '')) + '</td>' +
+        '<td style="padding:8px;color:var(--secondary)">' + esc(when(d.ts)) + '</td>' +
+        '</tr>').join('') +
+      '</tbody></table></div>';
+  }
+
+  // ---- 崩溃日志 ----
+  html += '<div style="font-weight:600;margin:22px 0 8px">崩溃日志（' + crashes.length + '）</div>';
+  if (!crashes.length) {
+    html += '<div class="hint">没有用户上传过崩溃日志 🎉</div>';
+  } else {
+    html += crashes.slice(0, 30).map((c, i) => {
+      return '<details style="padding:8px 0;border-bottom:1px solid var(--sep)">' +
+        '<summary style="cursor:pointer;font-size:14px">' +
+        esc(c.model || '?') + ' · v' + esc(c.versionName || '?') +
+        (c.note ? ' · 「' + esc(c.note) + '」' : '') +
+        '<span style="color:var(--secondary);font-size:12px"> ' + esc(when(c.ts)) + '</span></summary>' +
+        '<pre style="white-space:pre-wrap;word-break:break-all;font-size:11px;line-height:1.5;' +
+        'background:rgba(120,120,128,.08);padding:10px;border-radius:10px;margin-top:8px;max-height:280px;overflow:auto">' +
+        esc(c.stack || '(空)') + '</pre></details>';
+    }).join('');
+  }
+
+  // ---- 功能建议 ----
+  html += '<div style="font-weight:600;margin:22px 0 8px">功能建议（' + ideas.length + '）</div>';
+  if (!ideas.length) {
+    html += '<div class="hint">还没有用户留言</div>';
+  } else {
+    html += ideas.slice(0, 50).map(it => {
+      return '<div style="padding:10px 0;border-bottom:1px solid var(--sep)">' +
+        '<div style="font-size:14px;white-space:pre-wrap">' + esc(it.text || '') + '</div>' +
+        '<div class="hint" style="margin-top:4px">' +
+        esc(it.model || '?') + ' · v' + esc(it.versionName || '?') +
+        (it.contact ? ' · 联系方式：' + esc(it.contact) : '') +
+        ' · ' + esc(when(it.ts)) + '</div></div>';
+    }).join('');
+  }
+
+  html += '<div class="hint" style="margin-top:14px">收件箱最后更新：' +
+    esc((inbox.updatedAt || '未知')) + '（定时任务每 15 分钟同步一次）</div>';
   return html;
 }
 
