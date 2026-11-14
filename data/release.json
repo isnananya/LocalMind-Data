@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.0.8",
-  "versionCode": 10008,
+  "latestVersion": "1.0.9",
+  "versionCode": 10009,
   "forceUpdate": false,
-  "changelog": "首个正式签名稳定版，可直接覆盖安装\n新增：功能建议（更多 → 功能建议）\n新增：崩溃后可选择上传日志\n新增：主题商店 7 套气泡样式\n新增：更新通道可选稳定版/测试版\n修复：后台获取最新 Release 报 404",
-  "downloadUrl": "https://github.com/isnananya/LocalMind-Android/releases/download/v1.0.8/LocalMind-1.0.8.apk",
-  "publishedAt": "2026-11-14"
+  "changelog": "主题商店拆成 主题 / 气泡 / 字体 三栏\n新增：29 套主题（新增 12 套，部分自带字体与气泡）\n新增：40 款云端气泡，10 种轮廓 + 6 种材质\n新增：磨砂玻璃 / 液体折射玻璃气泡\n新增：25 款可下载中文字体，带样张预览，支持导入本机字体\n修复：气泡不再只能换颜色",
+  "downloadUrl": "https://github.com/isnananya/LocalMind-Android/releases/download/v1.0.9/LocalMind-1.0.9.apk",
+  "publishedAt": "2026-11-15"
 }
