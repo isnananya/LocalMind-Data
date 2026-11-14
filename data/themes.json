@@ -28,6 +28,366 @@
       ]
     },
     {
+      "id": "dev.localmind.theme.mintmist",
+      "name": "薄荷雾气",
+      "author": "LocalMind",
+      "description": "薄荷绿柔光：雾面渐变壁纸、玻璃卡片、圆润气泡、大圆角，配圆体字。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/mintmist.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/mintmist.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/mintmist.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/mintmist.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/mintmist.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/mintmist.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/mintmist.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/mintmist.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/mintmist.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/mintmist.png"
+      ],
+      "sizeBytes": 61562,
+      "tags": [
+        "浅色",
+        "清爽",
+        "壁纸",
+        "绿色"
+      ],
+      "fontId": "font-hanyi-pp",
+      "bubbleId": "bubble_mint"
+    },
+    {
+      "id": "dev.localmind.theme.peachsoda",
+      "name": "蜜桃气泡",
+      "author": "LocalMind",
+      "description": "蜜桃汽水：粉橙柔光壁纸、果冻渐变气泡、奶油圆体、大圆角。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/peachsoda.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/peachsoda.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/peachsoda.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/peachsoda.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/peachsoda.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/peachsoda.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/peachsoda.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/peachsoda.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/peachsoda.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/peachsoda.png"
+      ],
+      "sizeBytes": 53051,
+      "tags": [
+        "浅色",
+        "甜美",
+        "壁纸",
+        "粉色"
+      ],
+      "fontId": "font-naiyou-paopao",
+      "bubbleId": "bubble_peach"
+    },
+    {
+      "id": "dev.localmind.theme.matcha",
+      "name": "抹茶拿铁",
+      "author": "LocalMind",
+      "description": "抹茶奶绿：柔和绿渐变壁纸、圆体字、长尾气泡、奶白卡片。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/matcha.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/matcha.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/matcha.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/matcha.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/matcha.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/matcha.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/matcha.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/matcha.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/matcha.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/matcha.png"
+      ],
+      "sizeBytes": 67955,
+      "tags": [
+        "浅色",
+        "绿色",
+        "治愈",
+        "壁纸"
+      ],
+      "fontId": "font-minijian-zhunyuan",
+      "bubbleId": "bubble_forest"
+    },
+    {
+      "id": "dev.localmind.theme.forestmist",
+      "name": "森林晨雾",
+      "author": "LocalMind",
+      "description": "森林晨雾：绿雾壁纸、软笔字、长尾气泡、圆角卡片，安静耐看。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/forestmist.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/forestmist.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/forestmist.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/forestmist.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/forestmist.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/forestmist.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/forestmist.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/forestmist.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/forestmist.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/forestmist.png"
+      ],
+      "sizeBytes": 65800,
+      "tags": [
+        "浅色",
+        "绿色",
+        "治愈",
+        "壁纸"
+      ],
+      "fontId": "font-muyao-ruanbi",
+      "bubbleId": "bubble_forest"
+    },
+    {
+      "id": "dev.localmind.theme.stone",
+      "name": "极简岩灰",
+      "author": "LocalMind",
+      "description": "岩灰极简：微光灰壁纸、直角气泡、系统感黑体、通栏底栏。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/stone.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/stone.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/stone.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/stone.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/stone.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/stone.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/stone.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/stone.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/stone.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/stone.png"
+      ],
+      "sizeBytes": 46317,
+      "tags": [
+        "浅色",
+        "极简",
+        "灰",
+        "无衬线"
+      ],
+      "fontId": "font-iqoo-zhongcu",
+      "bubbleId": "bubble_mono"
+    },
+    {
+      "id": "dev.localmind.theme.paperplane",
+      "name": "纸飞机",
+      "author": "LocalMind",
+      "description": "纸感暖白：纤维纸壁纸、折角气泡、手写体、扁平方角卡片。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/paperplane.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/paperplane.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/paperplane.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/paperplane.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/paperplane.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/paperplane.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/paperplane.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/paperplane.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/paperplane.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/paperplane.png"
+      ],
+      "sizeBytes": 32395,
+      "tags": [
+        "浅色",
+        "纸质",
+        "手写",
+        "极简"
+      ],
+      "fontId": "font-qingye-shouxie",
+      "bubbleId": "bubble_paper"
+    },
+    {
+      "id": "dev.localmind.theme.nebula",
+      "name": "星云",
+      "author": "LocalMind",
+      "description": "紫蓝星云：星空壁纸、果冻气泡、玻璃卡片、大圆角、衬线字。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/nebula.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/nebula.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/nebula.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/nebula.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/nebula.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/nebula.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/nebula.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/nebula.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/nebula.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/nebula.png"
+      ],
+      "sizeBytes": 116017,
+      "tags": [
+        "暗色",
+        "星空",
+        "壁纸",
+        "梦幻"
+      ],
+      "fontId": "font-suxinshi-luanshi",
+      "bubbleId": "bubble_lavender"
+    },
+    {
+      "id": "dev.localmind.theme.deepsea",
+      "name": "深海鲸歌",
+      "author": "LocalMind",
+      "description": "深海蓝：暗流渐变壁纸、细体字、长尾气泡、圆角方头像。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/deepsea.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/deepsea.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/deepsea.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/deepsea.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/deepsea.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/deepsea.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/deepsea.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/deepsea.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/deepsea.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/deepsea.png"
+      ],
+      "sizeBytes": 88519,
+      "tags": [
+        "暗色",
+        "蓝色",
+        "壁纸",
+        "安静"
+      ],
+      "fontId": "font-woyi-qingchen",
+      "bubbleId": "bubble_moon"
+    },
+    {
+      "id": "dev.localmind.theme.midnight",
+      "name": "夜航蓝",
+      "author": "LocalMind",
+      "description": "夜航蓝：细网格壁纸、长尾气泡、玻璃卡片、系统黑体。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/midnight.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/midnight.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/midnight.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/midnight.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/midnight.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/midnight.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/midnight.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/midnight.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/midnight.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/midnight.png"
+      ],
+      "sizeBytes": 72224,
+      "tags": [
+        "暗色",
+        "蓝色",
+        "极简",
+        "壁纸"
+      ],
+      "fontId": "font-tengxiang-jinzhuan",
+      "bubbleId": "bubble_imessage"
+    },
+    {
+      "id": "dev.localmind.theme.duskneon",
+      "name": "暮色霓虹",
+      "author": "LocalMind",
+      "description": "黄昏紫红：霓虹光斑壁纸、渐变卡片、发光胶囊气泡、圆点指示器。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/duskneon.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/duskneon.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/duskneon.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/duskneon.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/duskneon.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/duskneon.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/duskneon.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/duskneon.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/duskneon.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/duskneon.png"
+      ],
+      "sizeBytes": 107241,
+      "tags": [
+        "暗色",
+        "霓虹",
+        "壁纸",
+        "高对比"
+      ],
+      "fontId": "font-qianxi-shaonian",
+      "bubbleId": "bubble_neon"
+    },
+    {
+      "id": "dev.localmind.theme.electric",
+      "name": "电子紫",
+      "author": "LocalMind",
+      "description": "电子紫：霓虹网格壁纸、像素台阶气泡、等宽字、赛博夜色。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/electric.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/electric.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/electric.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/electric.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/electric.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/electric.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/electric.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/electric.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/electric.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/electric.png"
+      ],
+      "sizeBytes": 69410,
+      "tags": [
+        "暗色",
+        "赛博",
+        "像素",
+        "高对比"
+      ],
+      "fontId": "font-juequ-ling",
+      "bubbleId": "bubble_cyber"
+    },
+    {
+      "id": "dev.localmind.theme.film",
+      "name": "复古胶片",
+      "author": "LocalMind",
+      "description": "复古胶片：暖褐色带状壁纸、折角气泡、童趣手写字、纸感卡片。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/film.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/film.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/film.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/film.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/film.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/film.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/film.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/film.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/film.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/film.png"
+      ],
+      "sizeBytes": 91966,
+      "tags": [
+        "浅色",
+        "复古",
+        "暖色",
+        "胶片"
+      ],
+      "fontId": "font-zhuzi-tongyan",
+      "bubbleId": "bubble_note"
+    },
+    {
       "id": "dev.localmind.theme.sakura",
       "name": "樱雪物语",
       "author": "LocalMind",
