@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.1.0-beta2",
-  "versionCode": 10101,
+  "latestVersion": "1.1.0-beta3",
+  "versionCode": 10103,
   "forceUpdate": false,
-  "changelog": "内测：主题商店拆成主题/气泡/字体三栏\n气泡新增 10 种轮廓、6 种材质（磨砂玻璃、液体折射玻璃）\n新增 25 款在线字体（带样张）与本机字体导入\n新增 12 套主题，部分自带字体与气泡",
-  "downloadUrl": "https://github.com/isnananya/LocalMind-Android/releases/download/v1.1.0-beta2/LocalMind-1.1.0-beta2.apk",
+  "changelog": "内测：气泡轮廓全部返工（尾巴 / 便签折角 / 像素台阶 / 邮票齿 / 切角）\n气泡 40 款 → 49 款，磨砂玻璃 6 款、液体折射玻璃 8 款\n34 款纯色气泡升级为同色极轻渐变\n修复：商店气泡数量徽章、缩略图胶囊化",
+  "downloadUrl": "https://github.com/isnananya/LocalMind-Android/releases/download/v1.1.0-beta3/LocalMind-1.1.0-beta3.apk",
   "publishedAt": "2026-11-15"
 }
