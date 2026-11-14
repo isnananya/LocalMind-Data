@@ -1,0 +1,8 @@
+{
+  "latestVersion": "1.1.0-beta1",
+  "versionCode": 10100,
+  "forceUpdate": false,
+  "changelog": "内测版：与 1.0.8 功能一致，用于验证内测推送\n内测包可直接覆盖正式版安装（同一签名）\n装上后在「更多 → 更新通道」选测试版即可收到后续内测",
+  "downloadUrl": "https://github.com/isnananya/LocalMind-Android/releases/download/v1.1.0-beta1/LocalMind-1.1.0-beta1.apk",
+  "publishedAt": "2026-11-14"
+}
