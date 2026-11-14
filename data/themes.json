@@ -1,0 +1,85 @@
+{
+  "themes": [
+    {
+      "id": "dev.localmind.theme.sakura",
+      "name": "樱雪物语",
+      "author": "LocalMind",
+      "description": "二次元粉紫风格：带樱花壁纸、尾巴气泡、玻璃卡片、圆头像。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/sakura.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/sakura.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/sakura.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/sakura.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/sakura.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/sakura.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/sakura.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/sakura.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/sakura.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/sakura.png"
+      ],
+      "sizeBytes": 1704821,
+      "tags": [
+        "二次元",
+        "浅色",
+        "壁纸"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.aurora-night",
+      "name": "极光夜航",
+      "author": "LocalMind",
+      "description": "暗色极光风格：星空壁纸、霓虹青强调色、拟物卡片、方角头像。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/aurora-night.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/aurora-night.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/aurora-night.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/aurora-night.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/aurora-night.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/aurora-night.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/aurora-night.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/aurora-night.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/aurora-night.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/aurora-night.png"
+      ],
+      "sizeBytes": 1998106,
+      "tags": [
+        "暗色",
+        "壁纸",
+        "极简"
+      ]
+    },
+    {
+      "id": "dev.localmind.theme.qq-classic",
+      "name": "QQ经典蓝",
+      "author": "LocalMind",
+      "description": "复刻 QQ 经典版：蓝白配色、直角矩形、方形头像、下划线标签栏。",
+      "version": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/qq-classic.zip",
+      "mirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/qq-classic.zip",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/theme-packs/qq-classic.zip",
+        "https://isnananya.github.io/LocalMind-Data/data/theme-packs/qq-classic.zip",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/theme-packs/qq-classic.zip"
+      ],
+      "previewUrl": "https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/qq-classic.png",
+      "previewMirrors": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/qq-classic.png",
+        "https://gh-proxy.com/https://raw.githubusercontent.com/isnananya/LocalMind-Data/main/data/previews/qq-classic.png",
+        "https://isnananya.github.io/LocalMind-Data/data/previews/qq-classic.png",
+        "https://cdn.jsdelivr.net/gh/isnananya/LocalMind-Data@main/data/previews/qq-classic.png"
+      ],
+      "sizeBytes": 5367,
+      "tags": [
+        "经典",
+        "浅色",
+        "直角"
+      ]
+    }
+  ]
+}
