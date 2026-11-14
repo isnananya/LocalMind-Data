@@ -1,0 +1,672 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-14",
+  "bubbles": [
+    {
+      "id": "bubble_blue",
+      "name": "经典蓝",
+      "description": "系统默认的蓝白搭配",
+      "tokens": {
+        "bubbleStyle": "rounded",
+        "bubbleCorner": "18",
+        "bubbleUser": "#0A84FF",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#FFFFFF",
+        "bubbleAiBorder": "#14000000"
+      },
+      "darkTokens": {
+        "bubbleUser": "#0A84FF",
+        "bubbleAi": "#1C1C1E",
+        "bubbleAiBorder": "#1AFFFFFF"
+      }
+    },
+    {
+      "id": "bubble_mint",
+      "name": "薄荷",
+      "description": "青绿气泡，浅色磨砂背板",
+      "tokens": {
+        "bubbleStyle": "rounded",
+        "bubbleCorner": "22",
+        "bubbleUser": "#2FB344",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#F1F8F3",
+        "bubbleAiBorder": "#1A2FB344"
+      },
+      "darkTokens": {
+        "bubbleUser": "#2E9E45",
+        "bubbleAi": "#16241A",
+        "bubbleAiBorder": "#332FB344"
+      }
+    },
+    {
+      "id": "bubble_sunset",
+      "name": "晚霞",
+      "description": "橙粉渐层感的暖色气泡",
+      "tokens": {
+        "bubbleStyle": "rounded",
+        "bubbleCorner": "20",
+        "bubbleUser": "#FF6B6B",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#FFF6F5",
+        "bubbleAiBorder": "#1AFF6B6B",
+        "bubbleUserAlt": "#FF9F45"
+      },
+      "darkTokens": {
+        "bubbleUser": "#E85C5C",
+        "bubbleUserAlt": "#E8890C",
+        "bubbleAi": "#26191A",
+        "bubbleAiBorder": "#33FF6B6B"
+      }
+    },
+    {
+      "id": "bubble_ink",
+      "name": "墨黑",
+      "description": "方正利落，适合极简控",
+      "tokens": {
+        "bubbleStyle": "square",
+        "bubbleCorner": "6",
+        "bubbleUser": "#111111",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#F5F5F7",
+        "bubbleAiBorder": "#1A000000"
+      },
+      "darkTokens": {
+        "bubbleUser": "#F2F2F2",
+        "bubbleUserText": "#111111",
+        "bubbleAi": "#1C1C1E",
+        "bubbleAiBorder": "#1AFFFFFF"
+      }
+    },
+    {
+      "id": "bubble_mono",
+      "name": "极简灰",
+      "description": "低饱和灰阶，什么都不抢",
+      "tokens": {
+        "bubbleStyle": "square",
+        "bubbleCorner": "10",
+        "bubbleUser": "#3A3A3C",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#F2F2F7",
+        "bubbleAiBorder": "#1A000000",
+        "bubbleBorderWidth": "0.5"
+      },
+      "darkTokens": {
+        "bubbleUser": "#48484A",
+        "bubbleAi": "#1C1C1E",
+        "bubbleAiBorder": "#1AFFFFFF"
+      }
+    },
+    {
+      "id": "bubble_candy",
+      "name": "糖纸",
+      "description": "大圆角紫粉，软糯一点",
+      "tokens": {
+        "bubbleStyle": "rounded",
+        "bubbleCorner": "28",
+        "bubbleUser": "#C77DFF",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#FAF5FF",
+        "bubbleAiBorder": "#1AC77DFF",
+        "bubbleUserAlt": "#FF9BD2"
+      },
+      "darkTokens": {
+        "bubbleUser": "#A96BE0",
+        "bubbleAi": "#221A29",
+        "bubbleAiBorder": "#33C77DFF"
+      }
+    },
+    {
+      "id": "bubble_tail_blue",
+      "name": "小尾·蓝",
+      "description": "带小尾巴的贴纸感气泡",
+      "tokens": {
+        "bubbleStyle": "tail",
+        "bubbleCorner": "22",
+        "bubbleUser": "#0A84FF",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#FFFFFF",
+        "bubbleAiBorder": "#14000000",
+        "bubbleTailSize": "8"
+      },
+      "darkTokens": {
+        "bubbleAi": "#1C1C1E",
+        "bubbleAiBorder": "#1AFFFFFF"
+      }
+    },
+    {
+      "id": "bubble_tail_amber",
+      "name": "小尾·琥珀",
+      "description": "暖橙尾巴气泡，夜间也好看",
+      "tokens": {
+        "bubbleStyle": "tail",
+        "bubbleCorner": "24",
+        "bubbleUser": "#E8890C",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#FFF8EF",
+        "bubbleAiBorder": "#1AE8890C",
+        "bubbleTailSize": "9"
+      },
+      "darkTokens": {
+        "bubbleUser": "#C2730A",
+        "bubbleAi": "#241C12",
+        "bubbleAiBorder": "#33E8890C"
+      }
+    },
+    {
+      "id": "bubble_qq2013",
+      "name": "QQ13 气泡",
+      "description": "长尾巴 + 细描边，当年的经典款",
+      "tokens": {
+        "bubbleStyle": "bubble",
+        "bubbleCorner": "14",
+        "bubbleUser": "#12B7F5",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#FFFFFF",
+        "bubbleAiBorder": "#201A2733",
+        "bubbleTailSize": "11",
+        "bubbleBorderWidth": "1"
+      },
+      "darkTokens": {
+        "bubbleUser": "#35C3F8",
+        "bubbleAi": "#1A242C",
+        "bubbleAiBorder": "#28FFFFFF"
+      }
+    },
+    {
+      "id": "bubble_imessage",
+      "name": "iMessage",
+      "description": "蓝色长尾，苹果那味",
+      "tokens": {
+        "bubbleStyle": "bubble",
+        "bubbleCorner": "18",
+        "bubbleUser": "#0B84FF",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#E9E9EB",
+        "bubbleAiBorder": "#00000000",
+        "bubbleTailSize": "12",
+        "bubbleBorderWidth": "0"
+      },
+      "darkTokens": {
+        "bubbleUser": "#0A84FF",
+        "bubbleAi": "#26262A"
+      }
+    },
+    {
+      "id": "bubble_sakura",
+      "name": "樱粉气泡",
+      "description": "粉色渐变尾巴，二次元常用",
+      "tokens": {
+        "bubbleStyle": "bubble",
+        "bubbleCorner": "20",
+        "bubbleUser": "#FF8FB8",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#FFFFFF",
+        "bubbleAiBorder": "#2AFF6FA5",
+        "bubbleUserAlt": "#FFC2D8",
+        "bubbleTailSize": "10",
+        "bubbleBorderWidth": "1"
+      },
+      "darkTokens": {
+        "bubbleUser": "#C25C88",
+        "bubbleUserAlt": "#E889B8",
+        "bubbleAi": "#241A21"
+      }
+    },
+    {
+      "id": "bubble_moon",
+      "name": "月白",
+      "description": "银灰长尾，安静一点",
+      "tokens": {
+        "bubbleStyle": "bubble",
+        "bubbleCorner": "16",
+        "bubbleUser": "#C9D3DE",
+        "bubbleUserText": "#1B2733",
+        "bubbleAi": "#FFFFFF",
+        "bubbleAiBorder": "#1A1B2733",
+        "bubbleTailSize": "10"
+      },
+      "darkTokens": {
+        "bubbleUser": "#3A4754",
+        "bubbleUserText": "#EAF1F8",
+        "bubbleAi": "#18202A"
+      }
+    },
+    {
+      "id": "bubble_forest",
+      "name": "森林",
+      "description": "深绿渐变 + 尾巴，户外感",
+      "tokens": {
+        "bubbleStyle": "bubble",
+        "bubbleCorner": "18",
+        "bubbleUser": "#2F7D5B",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#F2F8F4",
+        "bubbleAiBorder": "#1A2F7D5B",
+        "bubbleUserAlt": "#5BAE7C",
+        "bubbleTailSize": "10"
+      },
+      "darkTokens": {
+        "bubbleUser": "#27674B",
+        "bubbleUserAlt": "#357F5E",
+        "bubbleAi": "#16211C"
+      }
+    },
+    {
+      "id": "bubble_jelly",
+      "name": "果冻",
+      "description": "大圆角 + 渐变 + 投影，软乎乎像果冻",
+      "tokens": {
+        "bubbleStyle": "blob",
+        "bubbleCorner": "26",
+        "bubbleUser": "#7C6CFF",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#F7F5FF",
+        "bubbleAiBorder": "#267C6CFF",
+        "bubbleUserAlt": "#B39DFF",
+        "bubbleAiAlt": "#EFEAFF",
+        "bubbleUserBorder": "#33FFFFFF",
+        "bubbleBorderWidth": "1",
+        "bubbleShadow": "4",
+        "bubbleTailSize": "10"
+      },
+      "darkTokens": {
+        "bubbleUser": "#6B5BF0",
+        "bubbleUserAlt": "#8E7BFF",
+        "bubbleAi": "#1F1B33",
+        "bubbleAiAlt": "#272141"
+      }
+    },
+    {
+      "id": "bubble_sticker",
+      "name": "贴纸",
+      "description": "白边 + 斜投影，QQ 贴纸那种厚度",
+      "tokens": {
+        "bubbleStyle": "bubble",
+        "bubbleCorner": "22",
+        "bubbleUser": "#FF5C8A",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#FFFFFF",
+        "bubbleAiBorder": "#FFFFFFFF",
+        "bubbleUserBorder": "#FFFFFFFF",
+        "bubbleBorderWidth": "2",
+        "bubbleShadow": "5",
+        "bubbleTailSize": "11"
+      },
+      "darkTokens": {
+        "bubbleUser": "#E64D77",
+        "bubbleAi": "#2A2A30",
+        "bubbleAiBorder": "#33FFFFFF",
+        "bubbleUserBorder": "#33FFFFFF"
+      }
+    },
+    {
+      "id": "bubble_note",
+      "name": "便签",
+      "description": "右下折角纸片，配一点硬投影",
+      "tokens": {
+        "bubbleStyle": "note",
+        "bubbleCorner": "8",
+        "bubbleUser": "#FFE9A8",
+        "bubbleUserText": "#4A3510",
+        "bubbleAi": "#FFFDF2",
+        "bubbleAiBorder": "#266B4B12",
+        "bubbleUserBorder": "#336B4B12",
+        "bubbleBorderWidth": "1",
+        "bubbleShadow": "2"
+      },
+      "darkTokens": {
+        "bubbleUser": "#D9BE6E",
+        "bubbleAi": "#24221A",
+        "bubbleAiBorder": "#33FFE9A8"
+      }
+    },
+    {
+      "id": "bubble_paper",
+      "name": "纸张",
+      "description": "米白纸片 + 折角，手账感",
+      "tokens": {
+        "bubbleStyle": "note",
+        "bubbleCorner": "6",
+        "bubbleUser": "#F3E7D3",
+        "bubbleUserText": "#3D2F21",
+        "bubbleAi": "#FFFDF8",
+        "bubbleAiBorder": "#33B4713D",
+        "bubbleBorderWidth": "1",
+        "bubbleShadow": "2"
+      },
+      "darkTokens": {
+        "bubbleUser": "#4A3E2E",
+        "bubbleUserText": "#F6EEE2",
+        "bubbleAi": "#262019"
+      }
+    },
+    {
+      "id": "bubble_pixel",
+      "name": "像素",
+      "description": "台阶边角，复古掌机味",
+      "tokens": {
+        "bubbleStyle": "pixel",
+        "bubbleCorner": "6",
+        "bubbleUser": "#4FA94A",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#FFFFFF",
+        "bubbleAiBorder": "#FF111111",
+        "bubbleUserBorder": "#FF111111",
+        "bubbleBorderWidth": "1.5"
+      },
+      "darkTokens": {
+        "bubbleUser": "#3E8A3A",
+        "bubbleAi": "#1B1F16",
+        "bubbleAiBorder": "#FFEFF2E4"
+      }
+    },
+    {
+      "id": "bubble_comic",
+      "name": "漫画",
+      "description": "邮票齿边 + 粗描边，像漫画对话框",
+      "tokens": {
+        "bubbleStyle": "comic",
+        "bubbleCorner": "4",
+        "bubbleUser": "#FFFFFF",
+        "bubbleUserText": "#111111",
+        "bubbleAi": "#FFFFFF",
+        "bubbleAiBorder": "#FF111111",
+        "bubbleUserBorder": "#FF111111",
+        "bubbleBorderWidth": "1.6"
+      },
+      "darkTokens": {
+        "bubbleUser": "#F5F5F0",
+        "bubbleAi": "#F5F5F0",
+        "bubbleAiBorder": "#FF111111",
+        "bubbleUserBorder": "#FF111111"
+      }
+    },
+    {
+      "id": "bubble_chalk",
+      "name": "黑板",
+      "description": "墨绿齿边，粉笔字的感觉",
+      "tokens": {
+        "bubbleStyle": "comic",
+        "bubbleCorner": "4",
+        "bubbleUser": "#20362C",
+        "bubbleUserText": "#EAF6E9",
+        "bubbleAi": "#182A22",
+        "bubbleAiBorder": "#FFEAF6E9",
+        "bubbleUserBorder": "#FFEAF6E9",
+        "bubbleBorderWidth": "1.4"
+      },
+      "darkTokens": {
+        "bubbleUser": "#22392E",
+        "bubbleAi": "#16241D",
+        "bubbleAiBorder": "#FFCFE6CE"
+      }
+    },
+    {
+      "id": "bubble_cut",
+      "name": "斜切",
+      "description": "对角切角，冷峻一点",
+      "tokens": {
+        "bubbleStyle": "cut",
+        "bubbleCorner": "10",
+        "bubbleUser": "#2B2B33",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#F4F4F6",
+        "bubbleAiBorder": "#1A000000",
+        "bubbleUserBorder": "#22FFFFFF",
+        "bubbleBorderWidth": "1"
+      },
+      "darkTokens": {
+        "bubbleAi": "#1C1C20",
+        "bubbleAiBorder": "#1FFFFFFF"
+      }
+    },
+    {
+      "id": "bubble_gold",
+      "name": "鎏金",
+      "description": "黑金切角，看起来贵一点",
+      "tokens": {
+        "bubbleStyle": "cut",
+        "bubbleCorner": "12",
+        "bubbleUser": "#17140E",
+        "bubbleUserText": "#F2C75C",
+        "bubbleAi": "#FBF6E9",
+        "bubbleAiBorder": "#66C8A44A",
+        "bubbleUserBorder": "#FFC8A44A",
+        "bubbleBorderWidth": "1.2"
+      },
+      "darkTokens": {
+        "bubbleAi": "#1E1A12",
+        "bubbleAiBorder": "#66C8A44A"
+      }
+    },
+    {
+      "id": "bubble_neon",
+      "name": "霓虹",
+      "description": "细描边 + 投影，赛博夜色",
+      "tokens": {
+        "bubbleStyle": "capsule",
+        "bubbleCorner": "14",
+        "bubbleUser": "#12121A",
+        "bubbleUserText": "#4DE1FF",
+        "bubbleAi": "#12121A",
+        "bubbleAiBorder": "#FFFF3D8B",
+        "bubbleUserBorder": "#FF4DE1FF",
+        "bubbleBorderWidth": "1.5",
+        "bubbleShadow": "6"
+      },
+      "darkTokens": {
+        "bubbleUserText": "#6FE9FF",
+        "bubbleAiBorder": "#FFFF5C9C"
+      }
+    },
+    {
+      "id": "bubble_cyber",
+      "name": "赛博黄",
+      "description": "黑黄像素，警告牌既视感",
+      "tokens": {
+        "bubbleStyle": "pixel",
+        "bubbleCorner": "6",
+        "bubbleUser": "#F2C400",
+        "bubbleUserText": "#1A1A00",
+        "bubbleAi": "#14140F",
+        "bubbleAiBorder": "#FFF2C400",
+        "bubbleUserBorder": "#FF1A1A00",
+        "bubbleBorderWidth": "1.5"
+      },
+      "darkTokens": {
+        "bubbleUser": "#D9B000",
+        "bubbleAi": "#12120E"
+      }
+    },
+    {
+      "id": "bubble_telegram",
+      "name": "Telegram",
+      "description": "圆润胶囊，群聊常用",
+      "tokens": {
+        "bubbleStyle": "capsule",
+        "bubbleCorner": "24",
+        "bubbleUser": "#2AABEE",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#FFFFFF",
+        "bubbleAiBorder": "#14000000"
+      },
+      "darkTokens": {
+        "bubbleAi": "#1C2329"
+      }
+    },
+    {
+      "id": "bubble_wechat",
+      "name": "微信绿",
+      "description": "微信那种绿白对话",
+      "tokens": {
+        "bubbleStyle": "rounded",
+        "bubbleCorner": "6",
+        "bubbleUser": "#95EC69",
+        "bubbleUserText": "#111111",
+        "bubbleAi": "#FFFFFF",
+        "bubbleAiBorder": "#14000000"
+      },
+      "darkTokens": {
+        "bubbleUser": "#3E9E48",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#2A2A2A"
+      }
+    },
+    {
+      "id": "bubble_line",
+      "name": "LINE 绿",
+      "description": "LINE 的圆角绿气泡",
+      "tokens": {
+        "bubbleStyle": "rounded",
+        "bubbleCorner": "20",
+        "bubbleUser": "#06C755",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#FFFFFF",
+        "bubbleAiBorder": "#14000000"
+      },
+      "darkTokens": {
+        "bubbleAi": "#1F2320"
+      }
+    },
+    {
+      "id": "bubble_discord",
+      "name": "Discord",
+      "description": "紫灰方角，斜切一点",
+      "tokens": {
+        "bubbleStyle": "square",
+        "bubbleCorner": "8",
+        "bubbleUser": "#5865F2",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#2B2D31",
+        "bubbleAiBorder": "#00000000",
+        "bubbleBorderWidth": "0"
+      },
+      "darkTokens": {
+        "bubbleAi": "#313338"
+      }
+    },
+    {
+      "id": "bubble_peach",
+      "name": "蜜桃气泡",
+      "description": "粉橙渐变果冻，甜而不腻",
+      "tokens": {
+        "bubbleStyle": "blob",
+        "bubbleCorner": "24",
+        "bubbleUser": "#FF9E7A",
+        "bubbleUserText": "#4A1D0E",
+        "bubbleAi": "#FFF6F2",
+        "bubbleAiBorder": "#26FF9E7A",
+        "bubbleUserAlt": "#FFC48F",
+        "bubbleBorderWidth": "1",
+        "bubbleShadow": "3",
+        "bubbleTailSize": "9"
+      },
+      "darkTokens": {
+        "bubbleUser": "#E8855F",
+        "bubbleUserAlt": "#F2A97E",
+        "bubbleAi": "#281C18"
+      }
+    },
+    {
+      "id": "bubble_ice",
+      "name": "冰晶",
+      "description": "淡蓝细描边，通透",
+      "tokens": {
+        "bubbleStyle": "capsule",
+        "bubbleCorner": "22",
+        "bubbleUser": "#E8F4FF",
+        "bubbleUserText": "#1B4A6B",
+        "bubbleAi": "#FFFFFF",
+        "bubbleAiBorder": "#6682C4E8",
+        "bubbleUserBorder": "#FF9CCBEB",
+        "bubbleBorderWidth": "1.2"
+      },
+      "darkTokens": {
+        "bubbleUser": "#22384A",
+        "bubbleUserText": "#DDF0FF",
+        "bubbleAi": "#16232E"
+      }
+    },
+    {
+      "id": "bubble_lavender",
+      "name": "薰衣草",
+      "description": "紫雾渐变，夜里很柔和",
+      "tokens": {
+        "bubbleStyle": "blob",
+        "bubbleCorner": "26",
+        "bubbleUser": "#B39DFF",
+        "bubbleUserText": "#1C0F33",
+        "bubbleAi": "#F8F5FF",
+        "bubbleAiBorder": "#26B39DFF",
+        "bubbleUserAlt": "#D6C7FF",
+        "bubbleShadow": "3",
+        "bubbleBorderWidth": "1",
+        "bubbleTailSize": "10"
+      },
+      "darkTokens": {
+        "bubbleUser": "#8E7BDB",
+        "bubbleUserAlt": "#A997F0",
+        "bubbleAi": "#1E1A2E"
+      }
+    },
+    {
+      "id": "bubble_bubblegum",
+      "name": "泡泡糖",
+      "description": "粉色胶囊 + 渐变，甜系",
+      "tokens": {
+        "bubbleStyle": "capsule",
+        "bubbleCorner": "24",
+        "bubbleUser": "#FF7FB0",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#FFF2F7",
+        "bubbleAiBorder": "#33FF7FB0",
+        "bubbleUserAlt": "#FFB3D0",
+        "bubbleShadow": "3"
+      },
+      "darkTokens": {
+        "bubbleUser": "#D96A96",
+        "bubbleUserAlt": "#F08FB5",
+        "bubbleAi": "#2A1C22"
+      }
+    },
+    {
+      "id": "bubble_terminal",
+      "name": "终端",
+      "description": "黑底绿字方块，极客向",
+      "tokens": {
+        "bubbleStyle": "square",
+        "bubbleCorner": "2",
+        "bubbleUser": "#0B0F0B",
+        "bubbleUserText": "#39FF88",
+        "bubbleAi": "#0E1410",
+        "bubbleAiBorder": "#FF39FF88",
+        "bubbleUserBorder": "#FF39FF88",
+        "bubbleBorderWidth": "1"
+      },
+      "darkTokens": {
+        "bubbleAi": "#0E1410",
+        "bubbleAiBorder": "#FF39FF88"
+      }
+    },
+    {
+      "id": "bubble_qq2008",
+      "name": "QQ08 蓝白",
+      "description": "方方正正，2010 年前的桌面端",
+      "tokens": {
+        "bubbleStyle": "square",
+        "bubbleCorner": "3",
+        "bubbleUser": "#12B7F5",
+        "bubbleUserText": "#FFFFFF",
+        "bubbleAi": "#FFFFFF",
+        "bubbleAiBorder": "#201A2733",
+        "bubbleBorderWidth": "1",
+        "bubbleShadow": "0"
+      },
+      "darkTokens": {
+        "bubbleUser": "#35C3F8",
+        "bubbleAi": "#1A242C",
+        "bubbleAiBorder": "#28FFFFFF"
+      }
+    }
+  ]
+}
