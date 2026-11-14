@@ -12,7 +12,11 @@
         "bubbleUser": "#0A84FF",
         "bubbleUserText": "#FFFFFF",
         "bubbleAi": "#FFFFFF",
-        "bubbleAiBorder": "#14000000"
+        "bubbleAiBorder": "#14000000",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#3198FF",
+        "bubbleAiAlt": "#E6E6E6",
+        "bubbleBorderWidth": "0.5"
       },
       "darkTokens": {
         "bubbleUser": "#0A84FF",
@@ -30,7 +34,11 @@
         "bubbleUser": "#2FB344",
         "bubbleUserText": "#FFFFFF",
         "bubbleAi": "#F1F8F3",
-        "bubbleAiBorder": "#1A2FB344"
+        "bubbleAiBorder": "#1A2FB344",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#50BF62",
+        "bubbleAiAlt": "#D9DFDB",
+        "bubbleBorderWidth": "0.5"
       },
       "darkTokens": {
         "bubbleUser": "#2E9E45",
@@ -49,7 +57,10 @@
         "bubbleUserText": "#FFFFFF",
         "bubbleAi": "#FFF6F5",
         "bubbleAiBorder": "#1AFF6B6B",
-        "bubbleUserAlt": "#FF9F45"
+        "bubbleUserAlt": "#FF9F45",
+        "bubbleMaterial": "gradient",
+        "bubbleAiAlt": "#E6DDDC",
+        "bubbleBorderWidth": "0.5"
       },
       "darkTokens": {
         "bubbleUser": "#E85C5C",
@@ -68,7 +79,11 @@
         "bubbleUser": "#111111",
         "bubbleUserText": "#FFFFFF",
         "bubbleAi": "#F5F5F7",
-        "bubbleAiBorder": "#1A000000"
+        "bubbleAiBorder": "#1A000000",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#373737",
+        "bubbleAiAlt": "#DCDCDE",
+        "bubbleBorderWidth": "0.5"
       },
       "darkTokens": {
         "bubbleUser": "#F2F2F2",
@@ -88,7 +103,10 @@
         "bubbleUserText": "#FFFFFF",
         "bubbleAi": "#F2F2F7",
         "bubbleAiBorder": "#1A000000",
-        "bubbleBorderWidth": "0.5"
+        "bubbleBorderWidth": "0.5",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#5A5A5B",
+        "bubbleAiAlt": "#DADADE"
       },
       "darkTokens": {
         "bubbleUser": "#48484A",
@@ -107,7 +125,10 @@
         "bubbleUserText": "#FFFFFF",
         "bubbleAi": "#FAF5FF",
         "bubbleAiBorder": "#1AC77DFF",
-        "bubbleUserAlt": "#FF9BD2"
+        "bubbleUserAlt": "#FF9BD2",
+        "bubbleMaterial": "gradient",
+        "bubbleAiAlt": "#E1DCE6",
+        "bubbleBorderWidth": "0.5"
       },
       "darkTokens": {
         "bubbleUser": "#A96BE0",
@@ -126,7 +147,11 @@
         "bubbleUserText": "#FFFFFF",
         "bubbleAi": "#FFFFFF",
         "bubbleAiBorder": "#14000000",
-        "bubbleTailSize": "8"
+        "bubbleTailSize": "8",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#3198FF",
+        "bubbleAiAlt": "#E6E6E6",
+        "bubbleBorderWidth": "0.5"
       },
       "darkTokens": {
         "bubbleAi": "#1C1C1E",
@@ -144,7 +169,11 @@
         "bubbleUserText": "#FFFFFF",
         "bubbleAi": "#FFF8EF",
         "bubbleAiBorder": "#1AE8890C",
-        "bubbleTailSize": "9"
+        "bubbleTailSize": "9",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#EC9C33",
+        "bubbleAiAlt": "#E6DFD7",
+        "bubbleBorderWidth": "0.5"
       },
       "darkTokens": {
         "bubbleUser": "#C2730A",
@@ -164,7 +193,10 @@
         "bubbleAi": "#FFFFFF",
         "bubbleAiBorder": "#201A2733",
         "bubbleTailSize": "11",
-        "bubbleBorderWidth": "1"
+        "bubbleBorderWidth": "1",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#38C3F7",
+        "bubbleAiAlt": "#E6E6E6"
       },
       "darkTokens": {
         "bubbleUser": "#35C3F8",
@@ -184,7 +216,10 @@
         "bubbleAi": "#E9E9EB",
         "bubbleAiBorder": "#00000000",
         "bubbleTailSize": "12",
-        "bubbleBorderWidth": "0"
+        "bubbleBorderWidth": "0",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#3298FF",
+        "bubbleAiAlt": "#D2D2D4"
       },
       "darkTokens": {
         "bubbleUser": "#0A84FF",
@@ -204,7 +239,9 @@
         "bubbleAiBorder": "#2AFF6FA5",
         "bubbleUserAlt": "#FFC2D8",
         "bubbleTailSize": "10",
-        "bubbleBorderWidth": "1"
+        "bubbleBorderWidth": "1",
+        "bubbleMaterial": "gradient",
+        "bubbleAiAlt": "#E6E6E6"
       },
       "darkTokens": {
         "bubbleUser": "#C25C88",
@@ -223,7 +260,11 @@
         "bubbleUserText": "#1B2733",
         "bubbleAi": "#FFFFFF",
         "bubbleAiBorder": "#1A1B2733",
-        "bubbleTailSize": "10"
+        "bubbleTailSize": "10",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#B5BEC8",
+        "bubbleAiAlt": "#E6E6E6",
+        "bubbleBorderWidth": "0.5"
       },
       "darkTokens": {
         "bubbleUser": "#3A4754",
@@ -243,7 +284,10 @@
         "bubbleAi": "#F2F8F4",
         "bubbleAiBorder": "#1A2F7D5B",
         "bubbleUserAlt": "#5BAE7C",
-        "bubbleTailSize": "10"
+        "bubbleTailSize": "10",
+        "bubbleMaterial": "gradient",
+        "bubbleAiAlt": "#DADFDC",
+        "bubbleBorderWidth": "0.5"
       },
       "darkTokens": {
         "bubbleUser": "#27674B",
@@ -267,7 +311,8 @@
         "bubbleUserBorder": "#33FFFFFF",
         "bubbleBorderWidth": "1",
         "bubbleShadow": "4",
-        "bubbleTailSize": "10"
+        "bubbleTailSize": "10",
+        "bubbleMaterial": "gradient"
       },
       "darkTokens": {
         "bubbleUser": "#6B5BF0",
@@ -290,7 +335,10 @@
         "bubbleUserBorder": "#FFFFFFFF",
         "bubbleBorderWidth": "2",
         "bubbleShadow": "5",
-        "bubbleTailSize": "11"
+        "bubbleTailSize": "11",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#FF769D",
+        "bubbleAiAlt": "#E6E6E6"
       },
       "darkTokens": {
         "bubbleUser": "#E64D77",
@@ -312,7 +360,10 @@
         "bubbleAiBorder": "#266B4B12",
         "bubbleUserBorder": "#336B4B12",
         "bubbleBorderWidth": "1",
-        "bubbleShadow": "2"
+        "bubbleShadow": "2",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#E6D297",
+        "bubbleAiAlt": "#E6E4DA"
       },
       "darkTokens": {
         "bubbleUser": "#D9BE6E",
@@ -332,7 +383,10 @@
         "bubbleAi": "#FFFDF8",
         "bubbleAiBorder": "#33B4713D",
         "bubbleBorderWidth": "1",
-        "bubbleShadow": "2"
+        "bubbleShadow": "2",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#DBD0BE",
+        "bubbleAiAlt": "#E6E4DF"
       },
       "darkTokens": {
         "bubbleUser": "#4A3E2E",
@@ -352,7 +406,10 @@
         "bubbleAi": "#FFFFFF",
         "bubbleAiBorder": "#FF111111",
         "bubbleUserBorder": "#FF111111",
-        "bubbleBorderWidth": "1.5"
+        "bubbleBorderWidth": "1.5",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#6BB767",
+        "bubbleAiAlt": "#E6E6E6"
       },
       "darkTokens": {
         "bubbleUser": "#3E8A3A",
@@ -372,7 +429,10 @@
         "bubbleAi": "#FFFFFF",
         "bubbleAiBorder": "#FF111111",
         "bubbleUserBorder": "#FF111111",
-        "bubbleBorderWidth": "1.6"
+        "bubbleBorderWidth": "1.6",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#E6E6E6",
+        "bubbleAiAlt": "#E6E6E6"
       },
       "darkTokens": {
         "bubbleUser": "#F5F5F0",
@@ -393,7 +453,10 @@
         "bubbleAi": "#182A22",
         "bubbleAiBorder": "#FFEAF6E9",
         "bubbleUserBorder": "#FFEAF6E9",
-        "bubbleBorderWidth": "1.4"
+        "bubbleBorderWidth": "1.4",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#44564E",
+        "bubbleAiAlt": "#3D4C45"
       },
       "darkTokens": {
         "bubbleUser": "#22392E",
@@ -413,7 +476,10 @@
         "bubbleAi": "#F4F4F6",
         "bubbleAiBorder": "#1A000000",
         "bubbleUserBorder": "#22FFFFFF",
-        "bubbleBorderWidth": "1"
+        "bubbleBorderWidth": "1",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#4D4D54",
+        "bubbleAiAlt": "#DCDCDD"
       },
       "darkTokens": {
         "bubbleAi": "#1C1C20",
@@ -432,7 +498,10 @@
         "bubbleAi": "#FBF6E9",
         "bubbleAiBorder": "#66C8A44A",
         "bubbleUserBorder": "#FFC8A44A",
-        "bubbleBorderWidth": "1.2"
+        "bubbleBorderWidth": "1.2",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#3C3A35",
+        "bubbleAiAlt": "#E2DDD2"
       },
       "darkTokens": {
         "bubbleAi": "#1E1A12",
@@ -452,7 +521,10 @@
         "bubbleAiBorder": "#FFFF3D8B",
         "bubbleUserBorder": "#FF4DE1FF",
         "bubbleBorderWidth": "1.5",
-        "bubbleShadow": "6"
+        "bubbleShadow": "6",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#38383F",
+        "bubbleAiAlt": "#38383F"
       },
       "darkTokens": {
         "bubbleUserText": "#6FE9FF",
@@ -471,7 +543,10 @@
         "bubbleAi": "#14140F",
         "bubbleAiBorder": "#FFF2C400",
         "bubbleUserBorder": "#FF1A1A00",
-        "bubbleBorderWidth": "1.5"
+        "bubbleBorderWidth": "1.5",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#F4CD29",
+        "bubbleAiAlt": "#3A3A35"
       },
       "darkTokens": {
         "bubbleUser": "#D9B000",
@@ -488,7 +563,11 @@
         "bubbleUser": "#2AABEE",
         "bubbleUserText": "#FFFFFF",
         "bubbleAi": "#FFFFFF",
-        "bubbleAiBorder": "#14000000"
+        "bubbleAiBorder": "#14000000",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#4CB8F1",
+        "bubbleAiAlt": "#E6E6E6",
+        "bubbleBorderWidth": "0.5"
       },
       "darkTokens": {
         "bubbleAi": "#1C2329"
@@ -504,7 +583,11 @@
         "bubbleUser": "#95EC69",
         "bubbleUserText": "#111111",
         "bubbleAi": "#FFFFFF",
-        "bubbleAiBorder": "#14000000"
+        "bubbleAiBorder": "#14000000",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#A6EF81",
+        "bubbleAiAlt": "#E6E6E6",
+        "bubbleBorderWidth": "0.5"
       },
       "darkTokens": {
         "bubbleUser": "#3E9E48",
@@ -522,7 +605,11 @@
         "bubbleUser": "#06C755",
         "bubbleUserText": "#FFFFFF",
         "bubbleAi": "#FFFFFF",
-        "bubbleAiBorder": "#14000000"
+        "bubbleAiBorder": "#14000000",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#2ED070",
+        "bubbleAiAlt": "#E6E6E6",
+        "bubbleBorderWidth": "0.5"
       },
       "darkTokens": {
         "bubbleAi": "#1F2320"
@@ -539,7 +626,10 @@
         "bubbleUserText": "#FFFFFF",
         "bubbleAi": "#2B2D31",
         "bubbleAiBorder": "#00000000",
-        "bubbleBorderWidth": "0"
+        "bubbleBorderWidth": "0",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#737EF4",
+        "bubbleAiAlt": "#4D4F52"
       },
       "darkTokens": {
         "bubbleAi": "#313338"
@@ -559,7 +649,9 @@
         "bubbleUserAlt": "#FFC48F",
         "bubbleBorderWidth": "1",
         "bubbleShadow": "3",
-        "bubbleTailSize": "9"
+        "bubbleTailSize": "9",
+        "bubbleMaterial": "gradient",
+        "bubbleAiAlt": "#E6DDDA"
       },
       "darkTokens": {
         "bubbleUser": "#E8855F",
@@ -579,7 +671,10 @@
         "bubbleAi": "#FFFFFF",
         "bubbleAiBorder": "#6682C4E8",
         "bubbleUserBorder": "#FF9CCBEB",
-        "bubbleBorderWidth": "1.2"
+        "bubbleBorderWidth": "1.2",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#D1DCE6",
+        "bubbleAiAlt": "#E6E6E6"
       },
       "darkTokens": {
         "bubbleUser": "#22384A",
@@ -601,7 +696,9 @@
         "bubbleUserAlt": "#D6C7FF",
         "bubbleShadow": "3",
         "bubbleBorderWidth": "1",
-        "bubbleTailSize": "10"
+        "bubbleTailSize": "10",
+        "bubbleMaterial": "gradient",
+        "bubbleAiAlt": "#DFDCE6"
       },
       "darkTokens": {
         "bubbleUser": "#8E7BDB",
@@ -621,7 +718,10 @@
         "bubbleAi": "#FFF2F7",
         "bubbleAiBorder": "#33FF7FB0",
         "bubbleUserAlt": "#FFB3D0",
-        "bubbleShadow": "3"
+        "bubbleShadow": "3",
+        "bubbleMaterial": "gradient",
+        "bubbleAiAlt": "#E6DADE",
+        "bubbleBorderWidth": "0.5"
       },
       "darkTokens": {
         "bubbleUser": "#D96A96",
@@ -641,7 +741,10 @@
         "bubbleAi": "#0E1410",
         "bubbleAiBorder": "#FF39FF88",
         "bubbleUserBorder": "#FF39FF88",
-        "bubbleBorderWidth": "1"
+        "bubbleBorderWidth": "1",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#323532",
+        "bubbleAiAlt": "#353A36"
       },
       "darkTokens": {
         "bubbleAi": "#0E1410",
@@ -660,7 +763,10 @@
         "bubbleAi": "#FFFFFF",
         "bubbleAiBorder": "#201A2733",
         "bubbleBorderWidth": "1",
-        "bubbleShadow": "0"
+        "bubbleShadow": "0",
+        "bubbleMaterial": "gradient",
+        "bubbleUserAlt": "#38C3F7",
+        "bubbleAiAlt": "#E6E6E6"
       },
       "darkTokens": {
         "bubbleUser": "#35C3F8",
@@ -805,6 +911,229 @@
       },
       "darkTokens": {
         "bubbleAiBorder": "#CCFF5C9C"
+      }
+    },
+    {
+      "id": "bubble_frost_mist",
+      "name": "磨砂·雾",
+      "description": "灰蓝雾面，透出壁纸又不抢字",
+      "tokens": {
+        "bubbleStyle": "rounded",
+        "bubbleCorner": "20",
+        "bubbleUser": "#DCE6F2",
+        "bubbleUserText": "#1B2230",
+        "bubbleAi": "#C9D6E6",
+        "bubbleAiBorder": "#66FFFFFF",
+        "bubbleMaterial": "frost",
+        "bubbleGloss": "0.5",
+        "bubbleBorderWidth": "1",
+        "bubbleShadow": "3",
+        "bubbleTailSize": "9",
+        "bubbleAiText": "#1B2230"
+      },
+      "darkTokens": {
+        "bubbleUser": "#3A4658",
+        "bubbleAi": "#2A3444",
+        "bubbleUserText": "#EAF2FF",
+        "bubbleAiText": "#DCE6F2"
+      }
+    },
+    {
+      "id": "bubble_frost_milk",
+      "name": "磨砂牛奶",
+      "description": "暖白磨砂，像磨过的亚克力",
+      "tokens": {
+        "bubbleStyle": "bubble",
+        "bubbleCorner": "24",
+        "bubbleUser": "#FBF7F2",
+        "bubbleUserText": "#3A2F26",
+        "bubbleAi": "#F3EDE5",
+        "bubbleAiBorder": "#73FFFFFF",
+        "bubbleMaterial": "frost",
+        "bubbleGloss": "0.65",
+        "bubbleBorderWidth": "1",
+        "bubbleShadow": "4",
+        "bubbleTailSize": "10",
+        "bubbleAiText": "#3A2F26"
+      },
+      "darkTokens": {
+        "bubbleUser": "#5A4E44",
+        "bubbleAi": "#413830",
+        "bubbleUserText": "#FBF7F2",
+        "bubbleAiText": "#EFE6DA"
+      }
+    },
+    {
+      "id": "bubble_frost_slate",
+      "name": "磨砂·板岩",
+      "description": "深板岩磨砂，切角轮廓，冷淡风",
+      "tokens": {
+        "bubbleStyle": "cut",
+        "bubbleCorner": "14",
+        "bubbleUser": "#B9C3CE",
+        "bubbleUserText": "#10161C",
+        "bubbleAi": "#A6B1BD",
+        "bubbleAiBorder": "#59FFFFFF",
+        "bubbleMaterial": "frost",
+        "bubbleGloss": "0.45",
+        "bubbleBorderWidth": "1.2",
+        "bubbleShadow": "2",
+        "bubbleAiText": "#10161C"
+      },
+      "darkTokens": {
+        "bubbleUser": "#39434F",
+        "bubbleAi": "#2A333D",
+        "bubbleUserText": "#DEE7F0",
+        "bubbleAiText": "#C9D4DF"
+      }
+    },
+    {
+      "id": "bubble_frost_amber",
+      "name": "磨砂琥珀",
+      "description": "琥珀色毛玻璃，暖夜配色",
+      "tokens": {
+        "bubbleStyle": "bubble",
+        "bubbleCorner": "22",
+        "bubbleUser": "#F6D9A8",
+        "bubbleUserText": "#3A2606",
+        "bubbleAi": "#EFCB93",
+        "bubbleAiBorder": "#66FFE0AE",
+        "bubbleMaterial": "frost",
+        "bubbleGloss": "0.7",
+        "bubbleBorderWidth": "1",
+        "bubbleShadow": "5",
+        "bubbleTailSize": "10",
+        "bubbleAiText": "#3A2606"
+      },
+      "darkTokens": {
+        "bubbleUser": "#6B5220",
+        "bubbleAi": "#4A3A18",
+        "bubbleUserText": "#FFE9C2",
+        "bubbleAiText": "#F6DCAE"
+      }
+    },
+    {
+      "id": "bubble_liquid_ice",
+      "name": "液态玻璃·冰",
+      "description": "近无色的冰玻璃，只靠高光成型",
+      "tokens": {
+        "bubbleStyle": "rounded",
+        "bubbleCorner": "20",
+        "bubbleUser": "#EAF6FF",
+        "bubbleUserText": "#12303F",
+        "bubbleAi": "#D6ECFA",
+        "bubbleAiBorder": "#8CB8E6F5",
+        "bubbleMaterial": "liquid",
+        "bubbleGloss": "0.85",
+        "bubbleBorderWidth": "1.4",
+        "bubbleShadow": "4",
+        "bubbleTailSize": "9",
+        "bubbleAiText": "#12303F"
+      },
+      "darkTokens": {
+        "bubbleUser": "#39566B",
+        "bubbleAi": "#2A4050",
+        "bubbleUserText": "#EAF6FF",
+        "bubbleAiText": "#D6ECFA"
+      }
+    },
+    {
+      "id": "bubble_liquid_gold",
+      "name": "液态玻璃·金",
+      "description": "金色液体金属，尾尖收得利落",
+      "tokens": {
+        "bubbleStyle": "tail",
+        "bubbleCorner": "16",
+        "bubbleUser": "#F2C66B",
+        "bubbleUserText": "#3A2703",
+        "bubbleAi": "#E8B958",
+        "bubbleAiBorder": "#99FFE7A8",
+        "bubbleMaterial": "liquid",
+        "bubbleGloss": "0.8",
+        "bubbleBorderWidth": "1.2",
+        "bubbleShadow": "7",
+        "bubbleTailSize": "10",
+        "bubbleAiText": "#3A2703"
+      },
+      "darkTokens": {
+        "bubbleUser": "#7A5C1C",
+        "bubbleAi": "#4E3B12",
+        "bubbleUserText": "#FFF2D0",
+        "bubbleAiText": "#F5DC9E"
+      }
+    },
+    {
+      "id": "bubble_liquid_violet",
+      "name": "液态玻璃·紫",
+      "description": "紫外光玻璃，色散最明显",
+      "tokens": {
+        "bubbleStyle": "bubble",
+        "bubbleCorner": "24",
+        "bubbleUser": "#9C7BFF",
+        "bubbleUserText": "#12052E",
+        "bubbleAi": "#C9B6FF",
+        "bubbleAiBorder": "#809E7BFF",
+        "bubbleMaterial": "liquid",
+        "bubbleGloss": "0.75",
+        "bubbleBorderWidth": "1.2",
+        "bubbleShadow": "6",
+        "bubbleTailSize": "11",
+        "bubbleAiText": "#25104F"
+      },
+      "darkTokens": {
+        "bubbleUser": "#4B33A8",
+        "bubbleAi": "#2B1E55",
+        "bubbleUserText": "#EDE4FF",
+        "bubbleAiText": "#D3C4FF"
+      }
+    },
+    {
+      "id": "bubble_liquid_night",
+      "name": "液态玻璃·夜",
+      "description": "深色液体玻璃，夜里不刺眼",
+      "tokens": {
+        "bubbleStyle": "blob",
+        "bubbleCorner": "26",
+        "bubbleUser": "#2A3444",
+        "bubbleUserText": "#DCEBFF",
+        "bubbleAi": "#1E2734",
+        "bubbleAiBorder": "#663E4F66",
+        "bubbleMaterial": "liquid",
+        "bubbleGloss": "0.6",
+        "bubbleBorderWidth": "1",
+        "bubbleShadow": "4",
+        "bubbleTailSize": "10",
+        "bubbleAiText": "#C6D6E8"
+      },
+      "darkTokens": {
+        "bubbleUser": "#141B25",
+        "bubbleAi": "#10161E",
+        "bubbleAiBorder": "#4D46586E"
+      }
+    },
+    {
+      "id": "bubble_liquid_rose_gold",
+      "name": "液态玻璃·玫瑰金",
+      "description": "玫瑰金镜面，便签折角轮廓",
+      "tokens": {
+        "bubbleStyle": "note",
+        "bubbleCorner": "18",
+        "bubbleUser": "#F0B7A8",
+        "bubbleUserText": "#3D1A14",
+        "bubbleAi": "#F5CEC2",
+        "bubbleAiBorder": "#99FFD9CC",
+        "bubbleMaterial": "liquid",
+        "bubbleGloss": "0.78",
+        "bubbleBorderWidth": "1.2",
+        "bubbleShadow": "6",
+        "bubbleTailSize": "9",
+        "bubbleAiText": "#3D1A14"
+      },
+      "darkTokens": {
+        "bubbleUser": "#7A4A3E",
+        "bubbleAi": "#4B2C25",
+        "bubbleUserText": "#FFEDE6",
+        "bubbleAiText": "#F7D8CD"
       }
     }
   ]
