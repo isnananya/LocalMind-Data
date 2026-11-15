@@ -1,8 +1,13 @@
 {
-  "updatedAt": "2026-11-14T22:40:40Z",
-  "devices": 4,
-  "activeToday": 2,
+  "updatedAt": "2026-11-15T02:08:55Z",
+  "devices": 5,
+  "activeToday": 4,
   "versions": [
+    {
+      "versionCode": 10013,
+      "version": "1.0.13",
+      "devices": 2
+    },
     {
       "versionCode": 10012,
       "version": "1.0.12",
@@ -25,10 +30,6 @@
     }
   ],
   "dailyActive": [
-    {
-      "date": "2026-11-01",
-      "devices": 0
-    },
     {
       "date": "2026-11-02",
       "devices": 0
@@ -80,6 +81,10 @@
     {
       "date": "2026-11-14",
       "devices": 2
+    },
+    {
+      "date": "2026-11-15",
+      "devices": 4
     }
   ],
   "announcements": [
@@ -87,12 +92,12 @@
       "id": "2026-11-14-welcome",
       "title": "欢迎使用 LocalMind",
       "publishedAt": "2026-11-14",
-      "reads": 4
+      "reads": 5
     }
   ],
   "stable": {
-    "version": "1.0.12",
-    "versionCode": 10012
+    "version": "1.0.13",
+    "versionCode": 10013
   },
   "beta": {
     "version": "1.1.0-beta3",
@@ -100,7 +105,7 @@
   },
   "inbox": {
     "version": 1,
-    "updatedAt": "2026-11-14T22:40:40Z",
+    "updatedAt": "2026-11-15T02:08:56Z",
     "items": [
       {
         "model": "Xiaomi 24031PN0DC",
@@ -310,23 +315,87 @@
         "ts": 1794691989870,
         "nid": "Bjnm7oURlw2y",
         "recvAt": 1794691990
+      },
+      {
+        "action": "reject",
+        "from": "1.0.12",
+        "to": "1.0.13",
+        "channel": "stable",
+        "kind": "update",
+        "id": "f6f336ee01b743a1",
+        "ts": 1794707090092,
+        "nid": "Y80xHtIRFKe4",
+        "recvAt": 1794707092
+      },
+      {
+        "action": "accept",
+        "from": "1.0.12",
+        "to": "1.0.13",
+        "channel": "stable",
+        "kind": "update",
+        "id": "f6f336ee01b743a1",
+        "ts": 1794707093385,
+        "nid": "WGyWRaFJRJIL",
+        "recvAt": 1794707093
+      },
+      {
+        "model": "Xiaomi 24031PN0DC",
+        "brand": "Xiaomi",
+        "android": "16",
+        "sdk": 36,
+        "ramMb": 15167,
+        "cpu": "SM8650",
+        "cores": 8,
+        "abi": "arm64-v8a",
+        "screen": "1440x3200",
+        "versionName": "1.0.13",
+        "versionCode": 10013,
+        "channel": "stable",
+        "kind": "device",
+        "id": "f6f336ee01b743a1",
+        "ts": 1794707114466,
+        "nid": "rM0X8hlhpTIf",
+        "recvAt": 1794707120
+      },
+      {
+        "model": "Xiaomi 24031PN0DC",
+        "brand": "Xiaomi",
+        "android": "16",
+        "sdk": 36,
+        "ramMb": 15167,
+        "cpu": "SM8650",
+        "cores": 8,
+        "abi": "arm64-v8a",
+        "screen": "1440x3200",
+        "versionName": "1.0.13",
+        "versionCode": 10013,
+        "channel": "stable",
+        "kind": "device",
+        "id": "38f951697eb94bbc",
+        "ts": 1794707182051,
+        "nid": "BFwQNOX3ddkU",
+        "recvAt": 1794707183
       }
     ],
     "seen": [
-      "7lGMk9SPufGn",
-      "8vgZQzWsUddX",
-      "k4QUnKjRs87P",
-      "NobcgKT4rPmJ",
-      "A0nvWW41ePYV",
-      "ZHjkXAOrjOkD",
-      "1CisYfWpWX57",
+      "jl8g2eOi1xOs",
+      "BFwQNOX3ddkU",
       "sfIvOEim6W2k",
-      "cHu3csbwB997",
-      "Bjnm7oURlw2y",
-      "HohnNehcAZAx",
+      "1CisYfWpWX57",
+      "ZHjkXAOrjOkD",
+      "7lGMk9SPufGn",
       "TRr0K67YYtAC",
       "1ew8mYvqoveW",
-      "jl8g2eOi1xOs"
+      "A0nvWW41ePYV",
+      "8vgZQzWsUddX",
+      "cHu3csbwB997",
+      "Bjnm7oURlw2y",
+      "Y80xHtIRFKe4",
+      "NobcgKT4rPmJ",
+      "HohnNehcAZAx",
+      "k4QUnKjRs87P",
+      "rM0X8hlhpTIf",
+      "WGyWRaFJRJIL"
     ]
   }
 }
