@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-16T08:06:39Z",
-  "devices": 11,
-  "activeToday": 0,
+  "updatedAt": "2026-11-16T18:27:16Z",
+  "devices": 13,
+  "activeToday": 1,
   "versions": [
     {
       "versionCode": 10013,
       "version": "1.0.13",
-      "devices": 7
+      "devices": 9
     },
     {
       "versionCode": 10012,
@@ -84,7 +84,7 @@
     },
     {
       "date": "2026-11-16",
-      "devices": 0
+      "devices": 1
     }
   ],
   "announcements": [
@@ -105,9 +105,30 @@
   },
   "inbox": {
     "version": 1,
-    "updatedAt": "",
-    "items": [],
+    "updatedAt": "2026-11-16T18:27:21Z",
+    "items": [
+      {
+        "model": "samsung SM-G9860",
+        "brand": "samsung",
+        "android": "9",
+        "sdk": 28,
+        "ramMb": 7975,
+        "cpu": "ranchu",
+        "cores": 4,
+        "abi": "arm64-v8a",
+        "screen": "720x1280",
+        "versionName": "1.0.13",
+        "versionCode": 10013,
+        "channel": "stable",
+        "kind": "device",
+        "id": "dedac9e4d3694ee9",
+        "ts": 1794830632827,
+        "nid": "iFpuBaNiouQi",
+        "recvAt": 1794830633
+      }
+    ],
     "seen": [
+      "iFpuBaNiouQi",
       "A0nvWW41ePYV"
     ]
   }
