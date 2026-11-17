@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-17T01:54:08Z",
-  "devices": 13,
-  "activeToday": 0,
+  "updatedAt": "2026-11-17T10:09:58Z",
+  "devices": 14,
+  "activeToday": 2,
   "versions": [
     {
       "versionCode": 10013,
@@ -84,7 +84,7 @@
     },
     {
       "date": "2026-11-17",
-      "devices": 0
+      "devices": 2
     }
   ],
   "announcements": [
