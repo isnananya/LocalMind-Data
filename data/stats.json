@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-17T19:15:25Z",
+  "updatedAt": "2026-11-18T01:38:04Z",
   "devices": 14,
-  "activeToday": 2,
+  "activeToday": 1,
   "versions": [
     {
       "versionCode": 10013,
@@ -30,10 +30,6 @@
     }
   ],
   "dailyActive": [
-    {
-      "date": "2026-11-04",
-      "devices": 0
-    },
     {
       "date": "2026-11-05",
       "devices": 0
@@ -85,6 +81,10 @@
     {
       "date": "2026-11-17",
       "devices": 2
+    },
+    {
+      "date": "2026-11-18",
+      "devices": 1
     }
   ],
   "announcements": [
@@ -105,9 +105,22 @@
   },
   "inbox": {
     "version": 1,
-    "updatedAt": "",
-    "items": [],
+    "updatedAt": "2026-11-18T01:38:04Z",
+    "items": [
+      {
+        "action": "accept",
+        "from": "1.0.8",
+        "to": "1.0.13",
+        "channel": "stable",
+        "kind": "update",
+        "id": "0071cfa441954ce5",
+        "ts": 1794960033674,
+        "nid": "UCzEvCA4Z40C",
+        "recvAt": 1794960034
+      }
+    ],
     "seen": [
+      "UCzEvCA4Z40C",
       "A0nvWW41ePYV"
     ]
   }
