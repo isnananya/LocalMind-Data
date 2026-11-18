@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T01:38:04Z",
+  "updatedAt": "2026-11-18T09:20:27Z",
   "devices": 14,
   "activeToday": 1,
   "versions": [
@@ -68,7 +68,7 @@
     },
     {
       "date": "2026-11-14",
-      "devices": 2
+      "devices": 0
     },
     {
       "date": "2026-11-15",
@@ -105,7 +105,7 @@
   },
   "inbox": {
     "version": 1,
-    "updatedAt": "2026-11-18T01:38:04Z",
+    "updatedAt": "2026-11-18T09:20:28Z",
     "items": [
       {
         "action": "accept",
@@ -120,8 +120,8 @@
       }
     ],
     "seen": [
-      "UCzEvCA4Z40C",
-      "A0nvWW41ePYV"
+      "A0nvWW41ePYV",
+      "UCzEvCA4Z40C"
     ]
   }
 }
