@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T07:52:01Z",
+  "updatedAt": "2026-11-19T17:19:28Z",
   "devices": 14,
   "activeToday": 0,
   "versions": [
@@ -7,26 +7,6 @@
       "versionCode": 10013,
       "version": "1.0.13",
       "devices": 9
-    },
-    {
-      "versionCode": 10012,
-      "version": "1.0.12",
-      "devices": 4
-    },
-    {
-      "versionCode": 10011,
-      "version": "1.0.11",
-      "devices": 1
-    },
-    {
-      "versionCode": 10010,
-      "version": "1.0.10",
-      "devices": 1
-    },
-    {
-      "versionCode": 10008,
-      "version": "1.0.8",
-      "devices": 2
     }
   ],
   "dailyActive": [
