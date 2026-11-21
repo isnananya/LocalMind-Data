@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-20T20:56:04Z",
+  "updatedAt": "2026-11-21T01:58:32Z",
   "devices": 14,
-  "activeToday": 0,
+  "activeToday": 1,
   "versions": [
     {
       "versionCode": 10013,
@@ -30,10 +30,6 @@
     }
   ],
   "dailyActive": [
-    {
-      "date": "2026-11-07",
-      "devices": 0
-    },
     {
       "date": "2026-11-08",
       "devices": 0
@@ -85,6 +81,10 @@
     {
       "date": "2026-11-20",
       "devices": 0
+    },
+    {
+      "date": "2026-11-21",
+      "devices": 1
     }
   ],
   "announcements": [
