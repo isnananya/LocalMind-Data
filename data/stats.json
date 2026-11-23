@@ -1,13 +1,8 @@
 {
-  "updatedAt": "2026-11-23T03:30:17Z",
+  "updatedAt": "2026-11-23T14:05:01Z",
   "devices": 14,
   "activeToday": 0,
   "versions": [
-    {
-      "versionCode": 10013,
-      "version": "1.0.13",
-      "devices": 9
-    },
     {
       "versionCode": 10012,
       "version": "1.0.12",
