@@ -1,8 +1,13 @@
 {
-  "updatedAt": "2026-11-23T14:05:01Z",
+  "updatedAt": "2026-11-24T01:15:00Z",
   "devices": 14,
   "activeToday": 0,
   "versions": [
+    {
+      "versionCode": 10013,
+      "version": "1.0.13",
+      "devices": 10
+    },
     {
       "versionCode": 10012,
       "version": "1.0.12",
@@ -25,10 +30,6 @@
     }
   ],
   "dailyActive": [
-    {
-      "date": "2026-11-10",
-      "devices": 0
-    },
     {
       "date": "2026-11-11",
       "devices": 0
@@ -80,6 +81,10 @@
     {
       "date": "2026-11-23",
       "devices": 0
+    },
+    {
+      "date": "2026-11-24",
+      "devices": 0
     }
   ],
   "announcements": [
@@ -100,9 +105,30 @@
   },
   "inbox": {
     "version": 1,
-    "updatedAt": "",
-    "items": [],
+    "updatedAt": "2026-11-24T01:15:01Z",
+    "items": [
+      {
+        "model": "vivo V2531A",
+        "brand": "vivo",
+        "android": "16",
+        "sdk": 36,
+        "ramMb": 11502,
+        "cpu": "SM4450",
+        "cores": 8,
+        "abi": "arm64-v8a",
+        "screen": "720x1570",
+        "versionName": "1.0.13",
+        "versionCode": 10013,
+        "channel": "stable",
+        "kind": "device",
+        "id": "0071cfa441954ce5",
+        "ts": 1795457911479,
+        "nid": "PT7SxgQRuwFN",
+        "recvAt": 1795457912
+      }
+    ],
     "seen": [
+      "PT7SxgQRuwFN",
       "A0nvWW41ePYV"
     ]
   }
