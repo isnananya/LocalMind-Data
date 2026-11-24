@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T11:11:51Z",
+  "updatedAt": "2026-11-24T21:07:38Z",
   "devices": 14,
   "activeToday": 0,
   "versions": [
@@ -60,7 +60,7 @@
     },
     {
       "date": "2026-11-18",
-      "devices": 0
+      "devices": 1
     },
     {
       "date": "2026-11-19",
@@ -105,10 +105,31 @@
   },
   "inbox": {
     "version": 1,
-    "updatedAt": "",
-    "items": [],
+    "updatedAt": "2026-11-24T21:07:39Z",
+    "items": [
+      {
+        "model": "Xiaomi 23127PN0CC",
+        "brand": "Xiaomi",
+        "android": "16",
+        "sdk": 36,
+        "ramMb": 11168,
+        "cpu": "SM8650",
+        "cores": 8,
+        "abi": "arm64-v8a",
+        "screen": "1200x2670",
+        "versionName": "1.0.13",
+        "versionCode": 10013,
+        "channel": "stable",
+        "kind": "device",
+        "id": "51a4f0cf29d342e7",
+        "ts": 1795521036942,
+        "nid": "rYK6DLaYwoyl",
+        "recvAt": 1795521039
+      }
+    ],
     "seen": [
-      "A0nvWW41ePYV"
+      "A0nvWW41ePYV",
+      "rYK6DLaYwoyl"
     ]
   }
 }
