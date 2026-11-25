@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T15:00:29Z",
+  "updatedAt": "2026-11-25T23:13:31Z",
   "devices": 14,
   "activeToday": 1,
   "versions": [
@@ -22,6 +22,11 @@
       "versionCode": 10010,
       "version": "1.0.10",
       "devices": 1
+    },
+    {
+      "versionCode": 10008,
+      "version": "1.0.8",
+      "devices": 2
     }
   ],
   "dailyActive": [
@@ -35,11 +40,11 @@
     },
     {
       "date": "2026-11-14",
-      "devices": 0
+      "devices": 2
     },
     {
       "date": "2026-11-15",
-      "devices": 0
+      "devices": 9
     },
     {
       "date": "2026-11-16",
@@ -47,11 +52,11 @@
     },
     {
       "date": "2026-11-17",
-      "devices": 0
+      "devices": 2
     },
     {
       "date": "2026-11-18",
-      "devices": 0
+      "devices": 1
     },
     {
       "date": "2026-11-19",
