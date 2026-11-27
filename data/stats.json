@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T23:54:47Z",
+  "updatedAt": "2026-11-27T06:36:06Z",
   "devices": 14,
   "activeToday": 0,
   "versions": [
@@ -31,12 +31,8 @@
   ],
   "dailyActive": [
     {
-      "date": "2026-11-13",
-      "devices": 0
-    },
-    {
       "date": "2026-11-14",
-      "devices": 0
+      "devices": 2
     },
     {
       "date": "2026-11-15",
@@ -84,6 +80,10 @@
     },
     {
       "date": "2026-11-26",
+      "devices": 0
+    },
+    {
+      "date": "2026-11-27",
       "devices": 0
     }
   ],
