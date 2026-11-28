@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T08:18:26Z",
+  "updatedAt": "2026-11-28T17:05:37Z",
   "devices": 15,
   "activeToday": 1,
   "versions": [
@@ -105,30 +105,9 @@
   },
   "inbox": {
     "version": 1,
-    "updatedAt": "2026-11-28T08:18:27Z",
-    "items": [
-      {
-        "model": "HUAWEI OXF-AN00",
-        "brand": "HONOR",
-        "android": "12",
-        "sdk": 31,
-        "ramMb": 7790,
-        "cpu": "kirin",
-        "cores": 8,
-        "abi": "arm64-v8a",
-        "screen": "1080x2265",
-        "versionName": "1.0.13",
-        "versionCode": 10013,
-        "channel": "stable",
-        "kind": "device",
-        "id": "604e09ff05684235",
-        "ts": 1795833636394,
-        "nid": "SiUT2EGdI2xj",
-        "recvAt": 1795833638
-      }
-    ],
+    "updatedAt": "",
+    "items": [],
     "seen": [
-      "SiUT2EGdI2xj",
       "A0nvWW41ePYV"
     ]
   }
